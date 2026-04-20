@@ -6,7 +6,7 @@
     <title>NYC Permit Exam Simulator</title>
     <meta
       name="description"
-      content="NYC Permit Exam Simulator with three full practice exams, adaptive wrong-answer retries, and offline progress saving."
+      content="NYC Permit Exam Simulator with three official-style practice exams, adaptive wrong-answer retries, and offline progress saving."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,29 +24,29 @@
             <p class="eyebrow">Official-style NY permit prep</p>
             <h1 id="home-title">NYC Permit Exam Simulator</h1>
             <p class="hero-copy">
-              3 full practice exams • adaptive retry rounds • 120 questions each
+              3 DMV-style practice exams • adaptive retry rounds • sourced question wording
             </p>
           </div>
 
           <div id="exam-card-grid" class="exam-card-grid" aria-live="polite"></div>
 
           <footer class="screen-footer">
-            <p>Based on official NYS DMV handbook content and structured practice review.</p>
+            <p>Based on official NYS DMV handbook content and public practice quiz structure.</p>
           </footer>
         </section>
 
         <section id="screen-pre" class="screen" aria-labelledby="pre-title">
           <div class="panel panel-wide">
-            <button class="ghost-link" id="pre-back-button" type="button">← Back to Menu</button>
+            <button class="ghost-link" id="pre-back-button" type="button">&larr; Back to Menu</button>
             <p id="pre-kicker" class="eyebrow">Exam setup</p>
-            <h2 id="pre-title">Exam 1 — Full Practice Test</h2>
+            <h2 id="pre-title">Exam 1 - Practice Test</h2>
             <div class="rules-grid">
               <div class="rule-card">
-                <span class="rule-number">120</span>
+                <span class="rule-number" id="pre-question-count">40</span>
                 <span class="rule-label">Questions</span>
               </div>
               <div class="rule-card">
-                <span class="rule-number">84+</span>
+                <span class="rule-number" id="pre-pass-count">28+</span>
                 <span class="rule-label">Needed to pass</span>
               </div>
               <div class="rule-card">
@@ -69,7 +69,7 @@
         <section id="screen-question" class="screen" aria-labelledby="question-text">
           <div class="top-status-bar">
             <div class="status-pill" id="question-exam-pill">Exam 1 • Round 1</div>
-            <div class="status-pill" id="question-counter">Question 1 / 120</div>
+            <div class="status-pill" id="question-counter">Question 1 / 40</div>
             <div class="status-pill" id="question-score-pill">Correct: 0 | Wrong: 0</div>
           </div>
 
@@ -99,7 +99,7 @@
 
             <div class="results-summary">
               <div class="score-orb">
-                <span id="results-score">0 / 120</span>
+                <span id="results-score">0 / 40</span>
               </div>
               <div class="results-copy">
                 <div class="result-metrics">
@@ -131,7 +131,7 @@
           </div>
           <div class="panel panel-wide mastery-panel">
             <p class="eyebrow">Mastery unlocked</p>
-            <h2 id="mastery-title">Mastery Achieved — Exam 1</h2>
+            <h2 id="mastery-title">Mastery Achieved - Exam 1</h2>
             <p id="mastery-copy" class="mastery-copy">
               You cleared every remaining retry question.
             </p>

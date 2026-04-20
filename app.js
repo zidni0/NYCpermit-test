@@ -1,7 +1,5 @@
 (function () {
   const QUESTION_BANK = Array.isArray(window.questions) ? window.questions : [];
-  const PASSING_SCORE_FULL_EXAM = 84;
-  const FULL_EXAM_SIZE = 120;
   const STORAGE_PREFIX = "nyc-permit-sim";
 
   const screens = {
@@ -15,6 +13,8 @@
   const examCardGrid = document.getElementById("exam-card-grid");
   const preTitle = document.getElementById("pre-title");
   const preKicker = document.getElementById("pre-kicker");
+  const preQuestionCount = document.getElementById("pre-question-count");
+  const prePassCount = document.getElementById("pre-pass-count");
   const beginExamButton = document.getElementById("begin-exam-button");
   const preBackButton = document.getElementById("pre-back-button");
 
@@ -84,10 +84,9 @@
         return null;
       }
 
-      const parsed = JSON.parse(raw);
       return {
         ...createDefaultState(examNumber),
-        ...parsed,
+        ...JSON.parse(raw),
         currentExam: examNumber,
       };
     } catch (error) {
@@ -118,6 +117,10 @@
     return array;
   }
 
+  function getPassingThreshold(totalQuestions) {
+    return Math.ceil(totalQuestions * 0.7);
+  }
+
   function setActiveScreen(name) {
     Object.entries(screens).forEach(([screenName, node]) => {
       node.classList.toggle("is-active", screenName === name);
@@ -139,14 +142,21 @@
   }
 
   function renderPreScreen() {
+    const upcomingCount =
+      state.pendingPool.length > 0
+        ? state.pendingPool.length
+        : questionsByExam[state.currentExam].length;
+    const passingThreshold = getPassingThreshold(upcomingCount);
+
     preKicker.textContent = state.currentRound > 1 ? `Exam ${state.currentExam} retry round` : "Exam setup";
     preTitle.textContent =
       state.currentRound > 1
-        ? `Exam ${state.currentExam} — Retry Round ${state.currentRound}`
-        : `Exam ${state.currentExam} — Full Practice Test`;
-
+        ? `Exam ${state.currentExam} - Retry Round ${state.currentRound}`
+        : `Exam ${state.currentExam} - Practice Test`;
+    preQuestionCount.textContent = String(upcomingCount);
+    prePassCount.textContent = `${passingThreshold}+`;
     beginExamButton.textContent =
-      state.currentRound > 1 ? `Begin Retry Round (${state.pendingPool.length} questions)` : "Begin Exam";
+      state.currentRound > 1 ? `Begin Retry Round (${upcomingCount} questions)` : "Begin Exam";
 
     setActiveScreen("pre");
   }
@@ -184,10 +194,7 @@
 
   function getCurrentQuestion() {
     const sessionQuestion = getCurrentQuestionState();
-    if (!sessionQuestion) {
-      return null;
-    }
-    return questionsById.get(sessionQuestion.id);
+    return sessionQuestion ? questionsById.get(sessionQuestion.id) : null;
   }
 
   function renderQuestion() {
@@ -202,9 +209,7 @@
     questionScorePill.textContent = `Correct: ${state.correctCount} | Wrong: ${state.wrongCount}`;
     questionCategory.textContent = question.category;
     questionText.textContent = question.question;
-
-    const answeredCount = state.answers.length;
-    progressFill.style.width = `${(answeredCount / state.poolSize) * 100}%`;
+    progressFill.style.width = `${(state.answers.length / state.poolSize) * 100}%`;
 
     answerList.innerHTML = "";
     const answerIsLocked = sessionQuestion.selectedIndex !== null;
@@ -215,7 +220,6 @@
       button.className = "answer-button";
       button.style.animationDelay = `${displayIndex * 60}ms`;
       button.disabled = answerIsLocked;
-      button.dataset.index = String(displayIndex);
 
       const badge = document.createElement("span");
       badge.className = "answer-badge";
@@ -232,10 +236,7 @@
         if (optionIndex === question.correct) {
           button.classList.add("correct");
         }
-        if (
-          sessionQuestion.selectedIndex === displayIndex &&
-          optionIndex !== question.correct
-        ) {
+        if (sessionQuestion.selectedIndex === displayIndex && optionIndex !== question.correct) {
           button.classList.add("wrong");
         }
       }
@@ -258,7 +259,6 @@
           `Correct answer: <span class="correct-choice">${question.options[question.correct]}</span><br>` +
           `${question.explanation}`;
       }
-
       nextQuestionButton.disabled = false;
     } else {
       feedbackBox.hidden = true;
@@ -273,7 +273,6 @@
   function selectAnswer(displayIndex) {
     const sessionQuestion = getCurrentQuestionState();
     const question = getCurrentQuestion();
-
     if (!sessionQuestion || !question || sessionQuestion.selectedIndex !== null) {
       return;
     }
@@ -317,13 +316,6 @@
     }
 
     endRound();
-  }
-
-  function getPassingThreshold(totalQuestions) {
-    if (totalQuestions === FULL_EXAM_SIZE) {
-      return PASSING_SCORE_FULL_EXAM;
-    }
-    return Math.ceil(totalQuestions * 0.7);
   }
 
   function endRound() {
@@ -381,14 +373,14 @@
 
     resultsKicker.textContent =
       snapshot.round === 1 ? `Exam ${snapshot.exam} complete` : `Retry round ${snapshot.round} complete`;
-    resultsTitle.textContent = `Exam ${snapshot.exam} — Round ${snapshot.round} Results`;
+    resultsTitle.textContent = `Exam ${snapshot.exam} - Round ${snapshot.round} Results`;
     animateScore(snapshot.score, snapshot.total);
     resultsPercentage.textContent = `${snapshot.percentage}%`;
     resultsBadge.textContent = passed ? "PASS" : "FAIL";
     resultsBadge.className = `metric-chip ${passed ? "pass" : "fail"}`;
 
     if (snapshot.round === 1) {
-      resultsSubtitle.textContent = `Passing score: ${PASSING_SCORE_FULL_EXAM}/${FULL_EXAM_SIZE}. Retry the questions you missed until you reach mastery.`;
+      resultsSubtitle.textContent = `Passing score: ${threshold}/${snapshot.total}. Retry the questions you missed until you reach mastery.`;
     } else {
       resultsSubtitle.textContent =
         "Retry rounds keep only the questions you still miss. Mastery triggers at 100%.";
@@ -410,7 +402,6 @@
 
     retryButton.textContent = `Retry Wrong Answers (${snapshot.wrongPool.length} questions)`;
     retryButton.disabled = snapshot.wrongPool.length === 0;
-
     setActiveScreen("results");
   }
 
@@ -427,7 +418,7 @@
   }
 
   function renderMastery() {
-    masteryTitle.textContent = `Mastery Achieved — Exam ${state.currentExam}`;
+    masteryTitle.textContent = `Mastery Achieved - Exam ${state.currentExam}`;
     masteryCopy.textContent = `You cleared every remaining question in ${state.masteryRounds} round${
       state.masteryRounds === 1 ? "" : "s"
     }. You can restart this exam any time for a fresh shuffle.`;
@@ -469,12 +460,12 @@
     }
   }
 
-  function getCardStatus(saved) {
+  function getCardStatus(saved, examNumber) {
     if (!saved) {
       return {
         label: "Not Started",
         badgeClass: "fresh",
-        description: "Fresh exam ready. 120 questions and adaptive retry rounds.",
+        description: `${questionsByExam[examNumber].length} official-style questions with adaptive retry rounds.`,
         primaryAction: "start",
         primaryLabel: "Start Exam",
       };
@@ -505,7 +496,7 @@
 
     [1, 2, 3].forEach((examNumber) => {
       const saved = loadSavedState(examNumber);
-      const cardStatus = getCardStatus(saved);
+      const cardStatus = getCardStatus(saved, examNumber);
 
       const article = document.createElement("article");
       article.className = "exam-card";
@@ -533,7 +524,6 @@
 
     const action = button.dataset.action;
     const examNumber = Number(button.dataset.exam);
-
     if (!examNumber) {
       return;
     }
@@ -561,10 +551,10 @@
 
   function guardQuestionBank() {
     const bankOkay =
-      QUESTION_BANK.length === 360 &&
-      questionsByExam[1].length === 120 &&
-      questionsByExam[2].length === 120 &&
-      questionsByExam[3].length === 120;
+      QUESTION_BANK.length === 120 &&
+      questionsByExam[1].length === 40 &&
+      questionsByExam[2].length === 40 &&
+      questionsByExam[3].length === 40;
 
     if (bankOkay) {
       return true;
@@ -573,7 +563,7 @@
     examCardGrid.innerHTML =
       `<article class="exam-card">` +
       `<div class="exam-card-header"><div><p class="eyebrow">Data issue</p><h2 class="exam-title">Question Bank Error</h2></div></div>` +
-      `<p class="exam-meta">The app expected 360 questions split into 120 per exam. Check questions.js and rebuild the dataset if needed.</p>` +
+      `<p class="exam-meta">The app expected 120 sourced questions split into 40 per exam. Check questions.js and rebuild the dataset if needed.</p>` +
       `</article>`;
     return false;
   }

@@ -19,36 +19,6 @@ const questions = [
     "id": 2,
     "exam": 2,
     "category": "Road Signs",
-    "question": "A driver sees a stop sign. What does it mean?",
-    "options": [
-      "Come to a full stop and proceed only when it is safe",
-      "Slow down only if another vehicle is close",
-      "Yield without stopping",
-      "Stop only for pedestrians"
-    ],
-    "correct": 0,
-    "explanation": "A stop sign requires a full stop before you continue when the way is clear.",
-    "sourceGroup": 1
-  },
-  {
-    "id": 3,
-    "exam": 3,
-    "category": "Road Signs",
-    "question": "Which meaning matches a stop sign?",
-    "options": [
-      "Come to a full stop and proceed only when it is safe",
-      "Slow down only if another vehicle is close",
-      "Yield without stopping",
-      "Stop only for pedestrians"
-    ],
-    "correct": 0,
-    "explanation": "A stop sign requires a full stop before you continue when the way is clear.",
-    "sourceGroup": 1
-  },
-  {
-    "id": 4,
-    "exam": 1,
-    "category": "Road Signs",
     "question": "What does a yield sign tell a driver to do?",
     "options": [
       "Come to a full stop every time",
@@ -61,38 +31,8 @@ const questions = [
     "sourceGroup": 2
   },
   {
-    "id": 5,
-    "exam": 2,
-    "category": "Road Signs",
-    "question": "A driver sees a yield sign. What action does it require?",
-    "options": [
-      "Come to a full stop every time",
-      "Slow down and be prepared to stop if needed",
-      "Speed up before entering the intersection",
-      "Ignore cross traffic if no cars are visible"
-    ],
-    "correct": 1,
-    "explanation": "A yield sign means reduce speed and give the right-of-way. Stop if traffic conditions require it.",
-    "sourceGroup": 2
-  },
-  {
-    "id": 6,
+    "id": 3,
     "exam": 3,
-    "category": "Road Signs",
-    "question": "Which action matches a yield sign?",
-    "options": [
-      "Come to a full stop every time",
-      "Slow down and be prepared to stop if needed",
-      "Speed up before entering the intersection",
-      "Ignore cross traffic if no cars are visible"
-    ],
-    "correct": 1,
-    "explanation": "A yield sign means reduce speed and give the right-of-way. Stop if traffic conditions require it.",
-    "sourceGroup": 2
-  },
-  {
-    "id": 7,
-    "exam": 1,
     "category": "Road Signs",
     "question": "What does a school crossing sign mean?",
     "options": [
@@ -106,37 +46,7 @@ const questions = [
     "sourceGroup": 3
   },
   {
-    "id": 8,
-    "exam": 2,
-    "category": "Road Signs",
-    "question": "A driver sees a school crossing sign. What does it mean?",
-    "options": [
-      "Pedestrians are prohibited",
-      "A school crossing is ahead",
-      "A playground is closed",
-      "Only school buses may enter"
-    ],
-    "correct": 1,
-    "explanation": "This warning sign tells drivers to watch for a school crossing ahead.",
-    "sourceGroup": 3
-  },
-  {
-    "id": 9,
-    "exam": 3,
-    "category": "Road Signs",
-    "question": "Which meaning matches a school crossing sign?",
-    "options": [
-      "Pedestrians are prohibited",
-      "A school crossing is ahead",
-      "A playground is closed",
-      "Only school buses may enter"
-    ],
-    "correct": 1,
-    "explanation": "This warning sign tells drivers to watch for a school crossing ahead.",
-    "sourceGroup": 3
-  },
-  {
-    "id": 10,
+    "id": 4,
     "exam": 1,
     "category": "Road Signs",
     "question": "What does a railroad crossing sign warn you about?",
@@ -151,38 +61,8 @@ const questions = [
     "sourceGroup": 4
   },
   {
-    "id": 11,
+    "id": 5,
     "exam": 2,
-    "category": "Road Signs",
-    "question": "A warning sign shows a railroad crossing sign. What is it warning you about?",
-    "options": [
-      "A pedestrian tunnel ahead",
-      "A blasting zone ahead",
-      "A railroad crossing ahead",
-      "A truck route ahead"
-    ],
-    "correct": 2,
-    "explanation": "The sign warns that train tracks cross the roadway ahead.",
-    "sourceGroup": 4
-  },
-  {
-    "id": 12,
-    "exam": 3,
-    "category": "Road Signs",
-    "question": "Choose the correct warning meaning for a railroad crossing sign?",
-    "options": [
-      "A pedestrian tunnel ahead",
-      "A blasting zone ahead",
-      "A railroad crossing ahead",
-      "A truck route ahead"
-    ],
-    "correct": 2,
-    "explanation": "The sign warns that train tracks cross the roadway ahead.",
-    "sourceGroup": 4
-  },
-  {
-    "id": 13,
-    "exam": 1,
     "category": "Road Signs",
     "question": "What does a traffic signal ahead sign mean?",
     "options": [
@@ -196,38 +76,8 @@ const questions = [
     "sourceGroup": 5
   },
   {
-    "id": 14,
-    "exam": 2,
-    "category": "Road Signs",
-    "question": "A driver sees a traffic signal ahead sign. What does it mean?",
-    "options": [
-      "There is a traffic signal ahead",
-      "You must stop immediately",
-      "A speed camera is ahead",
-      "Only turning traffic is allowed ahead"
-    ],
-    "correct": 0,
-    "explanation": "This warning sign alerts you that a traffic signal is ahead.",
-    "sourceGroup": 5
-  },
-  {
-    "id": 15,
+    "id": 6,
     "exam": 3,
-    "category": "Road Signs",
-    "question": "Which meaning matches a traffic signal ahead sign?",
-    "options": [
-      "There is a traffic signal ahead",
-      "You must stop immediately",
-      "A speed camera is ahead",
-      "Only turning traffic is allowed ahead"
-    ],
-    "correct": 0,
-    "explanation": "This warning sign alerts you that a traffic signal is ahead.",
-    "sourceGroup": 5
-  },
-  {
-    "id": 16,
-    "exam": 1,
     "category": "Road Signs",
     "question": "What does a no left turn sign mean?",
     "options": [
@@ -241,37 +91,7 @@ const questions = [
     "sourceGroup": 6
   },
   {
-    "id": 17,
-    "exam": 2,
-    "category": "Road Signs",
-    "question": "A driver sees a no left turn sign. What does it mean?",
-    "options": [
-      "Left turns are permitted only after stopping",
-      "Left turns are not allowed",
-      "U-turns only are prohibited",
-      "Traffic must keep left"
-    ],
-    "correct": 1,
-    "explanation": "A no left turn sign means you may not make a left turn at that location.",
-    "sourceGroup": 6
-  },
-  {
-    "id": 18,
-    "exam": 3,
-    "category": "Road Signs",
-    "question": "Which meaning matches a no left turn sign?",
-    "options": [
-      "Left turns are permitted only after stopping",
-      "Left turns are not allowed",
-      "U-turns only are prohibited",
-      "Traffic must keep left"
-    ],
-    "correct": 1,
-    "explanation": "A no left turn sign means you may not make a left turn at that location.",
-    "sourceGroup": 6
-  },
-  {
-    "id": 19,
+    "id": 7,
     "exam": 1,
     "category": "Road Signs",
     "question": "What does a no U-turn sign mean?",
@@ -286,38 +106,8 @@ const questions = [
     "sourceGroup": 7
   },
   {
-    "id": 20,
+    "id": 8,
     "exam": 2,
-    "category": "Road Signs",
-    "question": "A driver sees a no U-turn sign. What does it mean?",
-    "options": [
-      "Left turns are prohibited",
-      "No stopping is allowed",
-      "U-turns are prohibited",
-      "A detour begins ahead"
-    ],
-    "correct": 2,
-    "explanation": "This sign specifically prohibits U-turns.",
-    "sourceGroup": 7
-  },
-  {
-    "id": 21,
-    "exam": 3,
-    "category": "Road Signs",
-    "question": "Which meaning matches a no U-turn sign?",
-    "options": [
-      "Left turns are prohibited",
-      "No stopping is allowed",
-      "U-turns are prohibited",
-      "A detour begins ahead"
-    ],
-    "correct": 2,
-    "explanation": "This sign specifically prohibits U-turns.",
-    "sourceGroup": 7
-  },
-  {
-    "id": 22,
-    "exam": 1,
     "category": "Road Signs",
     "question": "What does a keep right sign mean?",
     "options": [
@@ -331,38 +121,8 @@ const questions = [
     "sourceGroup": 8
   },
   {
-    "id": 23,
-    "exam": 2,
-    "category": "Road Signs",
-    "question": "A driver sees a keep right sign. What does it mean?",
-    "options": [
-      "The road becomes one-way",
-      "Two-way traffic begins",
-      "Drivers must keep to the right",
-      "The divided highway ends"
-    ],
-    "correct": 2,
-    "explanation": "Keep right signs direct traffic to pass an obstruction or median on the right side.",
-    "sourceGroup": 8
-  },
-  {
-    "id": 24,
+    "id": 9,
     "exam": 3,
-    "category": "Road Signs",
-    "question": "Which meaning matches a keep right sign?",
-    "options": [
-      "The road becomes one-way",
-      "Two-way traffic begins",
-      "Drivers must keep to the right",
-      "The divided highway ends"
-    ],
-    "correct": 2,
-    "explanation": "Keep right signs direct traffic to pass an obstruction or median on the right side.",
-    "sourceGroup": 8
-  },
-  {
-    "id": 25,
-    "exam": 1,
     "category": "Road Signs",
     "question": "What does a right lane ends, keep left sign mean?",
     "options": [
@@ -376,37 +136,7 @@ const questions = [
     "sourceGroup": 9
   },
   {
-    "id": 26,
-    "exam": 2,
-    "category": "Road Signs",
-    "question": "A driver sees a right lane ends, keep left sign. What does it mean?",
-    "options": [
-      "Merging traffic enters from the left",
-      "The right lane ends, so stay left",
-      "A divided highway begins",
-      "Right turns are required"
-    ],
-    "correct": 1,
-    "explanation": "This sign warns that the right lane ends and drivers should move left when safe.",
-    "sourceGroup": 9
-  },
-  {
-    "id": 27,
-    "exam": 3,
-    "category": "Road Signs",
-    "question": "Which meaning matches a right lane ends, keep left sign?",
-    "options": [
-      "Merging traffic enters from the left",
-      "The right lane ends, so stay left",
-      "A divided highway begins",
-      "Right turns are required"
-    ],
-    "correct": 1,
-    "explanation": "This sign warns that the right lane ends and drivers should move left when safe.",
-    "sourceGroup": 9
-  },
-  {
-    "id": 28,
+    "id": 10,
     "exam": 1,
     "category": "Road Signs",
     "question": "What does a divided highway ends sign mean?",
@@ -421,38 +151,8 @@ const questions = [
     "sourceGroup": 10
   },
   {
-    "id": 29,
+    "id": 11,
     "exam": 2,
-    "category": "Road Signs",
-    "question": "A driver sees a divided highway ends sign. What does it mean?",
-    "options": [
-      "The roadway ahead is one way only",
-      "Four lanes begin ahead",
-      "A divided highway is ending",
-      "Two lanes merge into one"
-    ],
-    "correct": 2,
-    "explanation": "It warns that the median or divider separating traffic is ending.",
-    "sourceGroup": 10
-  },
-  {
-    "id": 30,
-    "exam": 3,
-    "category": "Road Signs",
-    "question": "Which meaning matches a divided highway ends sign?",
-    "options": [
-      "The roadway ahead is one way only",
-      "Four lanes begin ahead",
-      "A divided highway is ending",
-      "Two lanes merge into one"
-    ],
-    "correct": 2,
-    "explanation": "It warns that the median or divider separating traffic is ending.",
-    "sourceGroup": 10
-  },
-  {
-    "id": 31,
-    "exam": 1,
     "category": "Road Signs",
     "question": "What does a two-way traffic sign mean?",
     "options": [
@@ -466,38 +166,8 @@ const questions = [
     "sourceGroup": 11
   },
   {
-    "id": 32,
-    "exam": 2,
-    "category": "Road Signs",
-    "question": "A driver sees a two-way traffic sign. What does it mean?",
-    "options": [
-      "A divided highway begins",
-      "Two-way traffic is ahead",
-      "An intersection is ahead",
-      "Four lanes of one-way traffic begin"
-    ],
-    "correct": 1,
-    "explanation": "This sign warns that traffic in both directions will share the road ahead.",
-    "sourceGroup": 11
-  },
-  {
-    "id": 33,
+    "id": 12,
     "exam": 3,
-    "category": "Road Signs",
-    "question": "Which meaning matches a two-way traffic sign?",
-    "options": [
-      "A divided highway begins",
-      "Two-way traffic is ahead",
-      "An intersection is ahead",
-      "Four lanes of one-way traffic begin"
-    ],
-    "correct": 1,
-    "explanation": "This sign warns that traffic in both directions will share the road ahead.",
-    "sourceGroup": 11
-  },
-  {
-    "id": 34,
-    "exam": 1,
     "category": "Road Signs",
     "question": "What does a do not enter sign prevent?",
     "options": [
@@ -511,37 +181,7 @@ const questions = [
     "sourceGroup": 12
   },
   {
-    "id": 35,
-    "exam": 2,
-    "category": "Road Signs",
-    "question": "A driver sees a do not enter sign. What does it prohibit or prevent?",
-    "options": [
-      "Entrance into a work zone only",
-      "Entrance to a dead-end street only",
-      "Wrong-way entrance onto one-way roads or ramps",
-      "Entrance to a private driveway"
-    ],
-    "correct": 2,
-    "explanation": "Do not enter signs keep drivers from entering against the proper direction of traffic.",
-    "sourceGroup": 12
-  },
-  {
-    "id": 36,
-    "exam": 3,
-    "category": "Road Signs",
-    "question": "Which restriction matches a do not enter sign?",
-    "options": [
-      "Entrance into a work zone only",
-      "Entrance to a dead-end street only",
-      "Wrong-way entrance onto one-way roads or ramps",
-      "Entrance to a private driveway"
-    ],
-    "correct": 2,
-    "explanation": "Do not enter signs keep drivers from entering against the proper direction of traffic.",
-    "sourceGroup": 12
-  },
-  {
-    "id": 37,
+    "id": 13,
     "exam": 1,
     "category": "Road Signs",
     "question": "What does a hospital sign with an arrow to the right mean?",
@@ -556,38 +196,8 @@ const questions = [
     "sourceGroup": 13
   },
   {
-    "id": 38,
+    "id": 14,
     "exam": 2,
-    "category": "Road Signs",
-    "question": "A driver sees a hospital sign with an arrow to the right. What does it mean?",
-    "options": [
-      "A hotel is ahead on the right",
-      "A hospital is ahead on the right",
-      "A highway curves right",
-      "A trail begins on the right"
-    ],
-    "correct": 1,
-    "explanation": "It identifies hospital services in the direction shown by the arrow.",
-    "sourceGroup": 13
-  },
-  {
-    "id": 39,
-    "exam": 3,
-    "category": "Road Signs",
-    "question": "Which meaning matches a hospital sign with an arrow to the right?",
-    "options": [
-      "A hotel is ahead on the right",
-      "A hospital is ahead on the right",
-      "A highway curves right",
-      "A trail begins on the right"
-    ],
-    "correct": 1,
-    "explanation": "It identifies hospital services in the direction shown by the arrow.",
-    "sourceGroup": 13
-  },
-  {
-    "id": 40,
-    "exam": 1,
     "category": "Road Signs",
     "question": "What does a hill ahead sign warn about?",
     "options": [
@@ -601,38 +211,8 @@ const questions = [
     "sourceGroup": 14
   },
   {
-    "id": 41,
-    "exam": 2,
-    "category": "Road Signs",
-    "question": "Choose the best answer for this rule: What does a hill ahead sign warn about?",
-    "options": [
-      "A truck stop ahead",
-      "A steep hill ahead",
-      "No trucks are allowed",
-      "An emergency ramp ahead"
-    ],
-    "correct": 1,
-    "explanation": "The sign warns drivers about an upcoming hill grade.",
-    "sourceGroup": 14
-  },
-  {
-    "id": 42,
+    "id": 15,
     "exam": 3,
-    "category": "Road Signs",
-    "question": "New York permit review \u2014 What does a hill ahead sign warn about; choose the correct answer below?",
-    "options": [
-      "A truck stop ahead",
-      "A steep hill ahead",
-      "No trucks are allowed",
-      "An emergency ramp ahead"
-    ],
-    "correct": 1,
-    "explanation": "The sign warns drivers about an upcoming hill grade.",
-    "sourceGroup": 14
-  },
-  {
-    "id": 43,
-    "exam": 1,
     "category": "Road Signs",
     "question": "What does a slippery when wet sign mean?",
     "options": [
@@ -646,37 +226,7 @@ const questions = [
     "sourceGroup": 15
   },
   {
-    "id": 44,
-    "exam": 2,
-    "category": "Road Signs",
-    "question": "A driver sees a slippery when wet sign. What does it mean?",
-    "options": [
-      "The road may be slippery when wet",
-      "You are approaching a bridge",
-      "Do not drive after drinking",
-      "Chains are required ahead"
-    ],
-    "correct": 0,
-    "explanation": "It warns that pavement traction is reduced when the road is wet.",
-    "sourceGroup": 15
-  },
-  {
-    "id": 45,
-    "exam": 3,
-    "category": "Road Signs",
-    "question": "Which meaning matches a slippery when wet sign?",
-    "options": [
-      "The road may be slippery when wet",
-      "You are approaching a bridge",
-      "Do not drive after drinking",
-      "Chains are required ahead"
-    ],
-    "correct": 0,
-    "explanation": "It warns that pavement traction is reduced when the road is wet.",
-    "sourceGroup": 15
-  },
-  {
-    "id": 46,
+    "id": 16,
     "exam": 1,
     "category": "Road Signs",
     "question": "What does a merging traffic from the right sign mean?",
@@ -691,38 +241,8 @@ const questions = [
     "sourceGroup": 16
   },
   {
-    "id": 47,
+    "id": 17,
     "exam": 2,
-    "category": "Road Signs",
-    "question": "A driver sees a merging traffic from the right sign. What does it mean?",
-    "options": [
-      "Traffic must turn right ahead",
-      "Traffic will merge in from the right",
-      "The right lane is closed permanently",
-      "Only right turns are allowed"
-    ],
-    "correct": 1,
-    "explanation": "This sign warns that vehicles will be entering your lane from the right.",
-    "sourceGroup": 16
-  },
-  {
-    "id": 48,
-    "exam": 3,
-    "category": "Road Signs",
-    "question": "Which meaning matches a merging traffic from the right sign?",
-    "options": [
-      "Traffic must turn right ahead",
-      "Traffic will merge in from the right",
-      "The right lane is closed permanently",
-      "Only right turns are allowed"
-    ],
-    "correct": 1,
-    "explanation": "This sign warns that vehicles will be entering your lane from the right.",
-    "sourceGroup": 16
-  },
-  {
-    "id": 49,
-    "exam": 1,
     "category": "Road Signs",
     "question": "A rectangular sign is usually what kind of sign?",
     "options": [
@@ -736,38 +256,8 @@ const questions = [
     "sourceGroup": 17
   },
   {
-    "id": 50,
-    "exam": 2,
-    "category": "Road Signs",
-    "question": "Choose the best answer for this rule: A rectangular sign is usually what kind of sign?",
-    "options": [
-      "A speed limit or other regulation sign",
-      "A railroad crossing warning sign",
-      "A stop sign",
-      "A hazard marker only for construction"
-    ],
-    "correct": 0,
-    "explanation": "Regulation signs are normally rectangular, including speed limit signs.",
-    "sourceGroup": 17
-  },
-  {
-    "id": 51,
+    "id": 18,
     "exam": 3,
-    "category": "Road Signs",
-    "question": "New York permit review \u2014 A rectangular sign is usually what kind of sign; choose the correct answer below?",
-    "options": [
-      "A speed limit or other regulation sign",
-      "A railroad crossing warning sign",
-      "A stop sign",
-      "A hazard marker only for construction"
-    ],
-    "correct": 0,
-    "explanation": "Regulation signs are normally rectangular, including speed limit signs.",
-    "sourceGroup": 17
-  },
-  {
-    "id": 52,
-    "exam": 1,
     "category": "Road Signs",
     "question": "A diamond-shaped sign is usually what type of sign?",
     "options": [
@@ -781,37 +271,7 @@ const questions = [
     "sourceGroup": 18
   },
   {
-    "id": 53,
-    "exam": 2,
-    "category": "Road Signs",
-    "question": "Choose the best answer for this rule: A diamond-shaped sign is usually what type of sign?",
-    "options": [
-      "A destination sign",
-      "A road hazard or warning sign",
-      "A service sign",
-      "A school bus sign only"
-    ],
-    "correct": 1,
-    "explanation": "Warning signs are normally diamond-shaped.",
-    "sourceGroup": 18
-  },
-  {
-    "id": 54,
-    "exam": 3,
-    "category": "Road Signs",
-    "question": "New York permit review \u2014 A diamond-shaped sign is usually what type of sign; choose the correct answer below?",
-    "options": [
-      "A destination sign",
-      "A road hazard or warning sign",
-      "A service sign",
-      "A school bus sign only"
-    ],
-    "correct": 1,
-    "explanation": "Warning signs are normally diamond-shaped.",
-    "sourceGroup": 18
-  },
-  {
-    "id": 55,
+    "id": 19,
     "exam": 1,
     "category": "Road Signs",
     "question": "What colors are used on signs that tell you the distance to the next highway exit?",
@@ -826,38 +286,8 @@ const questions = [
     "sourceGroup": 19
   },
   {
-    "id": 56,
+    "id": 20,
     "exam": 2,
-    "category": "Road Signs",
-    "question": "Which color combination is used on signs that tell you the distance to the next highway exit?",
-    "options": [
-      "Red with white letters",
-      "Yellow with black letters",
-      "Green with white letters",
-      "Black with white letters"
-    ],
-    "correct": 2,
-    "explanation": "Destination signs, including exit information signs, are green with white lettering.",
-    "sourceGroup": 19
-  },
-  {
-    "id": 57,
-    "exam": 3,
-    "category": "Road Signs",
-    "question": "Identify the sign colors used on signs that tell you the distance to the next highway exit?",
-    "options": [
-      "Red with white letters",
-      "Yellow with black letters",
-      "Green with white letters",
-      "Black with white letters"
-    ],
-    "correct": 2,
-    "explanation": "Destination signs, including exit information signs, are green with white lettering.",
-    "sourceGroup": 19
-  },
-  {
-    "id": 58,
-    "exam": 1,
     "category": "Road Signs",
     "question": "What colors are used on most warning signs that show hazards ahead?",
     "options": [
@@ -871,38 +301,8 @@ const questions = [
     "sourceGroup": 20
   },
   {
-    "id": 59,
-    "exam": 2,
-    "category": "Road Signs",
-    "question": "Which color combination is used on most warning signs that show hazards ahead?",
-    "options": [
-      "Black letters or symbols on yellow",
-      "White letters on blue",
-      "White letters on green",
-      "Black letters on white"
-    ],
-    "correct": 0,
-    "explanation": "Warning signs are usually yellow with black letters or symbols.",
-    "sourceGroup": 20
-  },
-  {
-    "id": 60,
+    "id": 21,
     "exam": 3,
-    "category": "Road Signs",
-    "question": "Identify the sign colors used on most warning signs that show hazards ahead?",
-    "options": [
-      "Black letters or symbols on yellow",
-      "White letters on blue",
-      "White letters on green",
-      "Black letters on white"
-    ],
-    "correct": 0,
-    "explanation": "Warning signs are usually yellow with black letters or symbols.",
-    "sourceGroup": 20
-  },
-  {
-    "id": 61,
-    "exam": 1,
     "category": "Road Signs",
     "question": "What colors are used on a typical work zone sign?",
     "options": [
@@ -916,37 +316,7 @@ const questions = [
     "sourceGroup": 21
   },
   {
-    "id": 62,
-    "exam": 2,
-    "category": "Road Signs",
-    "question": "Which color combination is used on a typical work zone sign?",
-    "options": [
-      "White with red letters",
-      "Blue with white letters",
-      "Orange with black letters",
-      "Green with white letters"
-    ],
-    "correct": 2,
-    "explanation": "Work zone warning signs are orange with black lettering or symbols.",
-    "sourceGroup": 21
-  },
-  {
-    "id": 63,
-    "exam": 3,
-    "category": "Road Signs",
-    "question": "Identify the sign colors used on a typical work zone sign?",
-    "options": [
-      "White with red letters",
-      "Blue with white letters",
-      "Orange with black letters",
-      "Green with white letters"
-    ],
-    "correct": 2,
-    "explanation": "Work zone warning signs are orange with black lettering or symbols.",
-    "sourceGroup": 21
-  },
-  {
-    "id": 64,
+    "id": 22,
     "exam": 1,
     "category": "Road Signs",
     "question": "What colors are used on most service signs?",
@@ -961,38 +331,8 @@ const questions = [
     "sourceGroup": 22
   },
   {
-    "id": 65,
+    "id": 23,
     "exam": 2,
-    "category": "Road Signs",
-    "question": "Which color combination is used on most service signs?",
-    "options": [
-      "Blue with white letters",
-      "Yellow with black letters",
-      "Green with white letters",
-      "Red with white letters"
-    ],
-    "correct": 0,
-    "explanation": "Service signs, such as hospital or gas information signs, are blue with white letters.",
-    "sourceGroup": 22
-  },
-  {
-    "id": 66,
-    "exam": 3,
-    "category": "Road Signs",
-    "question": "Identify the sign colors used on most service signs?",
-    "options": [
-      "Blue with white letters",
-      "Yellow with black letters",
-      "Green with white letters",
-      "Red with white letters"
-    ],
-    "correct": 0,
-    "explanation": "Service signs, such as hospital or gas information signs, are blue with white letters.",
-    "sourceGroup": 22
-  },
-  {
-    "id": 67,
-    "exam": 1,
     "category": "Traffic Control",
     "question": "You come to an intersection with a flashing red light. What should you do?",
     "options": [
@@ -1006,38 +346,8 @@ const questions = [
     "sourceGroup": 23
   },
   {
-    "id": 68,
-    "exam": 2,
-    "category": "Traffic Control",
-    "question": "Scenario: you come to an intersection with a flashing red light. What should you do. What is the best action?",
-    "options": [
-      "Slow down and proceed if the road looks clear",
-      "Come to a full stop, then go when safe",
-      "Stop only if another vehicle is already in the intersection",
-      "Treat it like a green light"
-    ],
-    "correct": 1,
-    "explanation": "A flashing red light is treated like a stop sign.",
-    "sourceGroup": 23
-  },
-  {
-    "id": 69,
+    "id": 24,
     "exam": 3,
-    "category": "Traffic Control",
-    "question": "If you come to an intersection with a flashing red light. What should you do, what should you do next?",
-    "options": [
-      "Slow down and proceed if the road looks clear",
-      "Come to a full stop, then go when safe",
-      "Stop only if another vehicle is already in the intersection",
-      "Treat it like a green light"
-    ],
-    "correct": 1,
-    "explanation": "A flashing red light is treated like a stop sign.",
-    "sourceGroup": 23
-  },
-  {
-    "id": 70,
-    "exam": 1,
     "category": "Traffic Control",
     "question": "What does a flashing yellow light mean?",
     "options": [
@@ -1051,37 +361,7 @@ const questions = [
     "sourceGroup": 24
   },
   {
-    "id": 71,
-    "exam": 2,
-    "category": "Traffic Control",
-    "question": "A driver sees a flashing yellow light. What does it mean?",
-    "options": [
-      "Come to a full stop",
-      "Proceed with caution",
-      "Yield only to pedestrians",
-      "Emergency vehicles only"
-    ],
-    "correct": 1,
-    "explanation": "A flashing yellow light warns you to slow down and proceed carefully.",
-    "sourceGroup": 24
-  },
-  {
-    "id": 72,
-    "exam": 3,
-    "category": "Traffic Control",
-    "question": "Which meaning matches a flashing yellow light?",
-    "options": [
-      "Come to a full stop",
-      "Proceed with caution",
-      "Yield only to pedestrians",
-      "Emergency vehicles only"
-    ],
-    "correct": 1,
-    "explanation": "A flashing yellow light warns you to slow down and proceed carefully.",
-    "sourceGroup": 24
-  },
-  {
-    "id": 73,
+    "id": 25,
     "exam": 1,
     "category": "Traffic Control",
     "question": "What does a traffic light showing a green arrow and a red light mean?",
@@ -1096,38 +376,8 @@ const questions = [
     "sourceGroup": 25
   },
   {
-    "id": 74,
+    "id": 26,
     "exam": 2,
-    "category": "Traffic Control",
-    "question": "A driver sees a traffic light showing a green arrow and a red light. What does it mean?",
-    "options": [
-      "You may only drive in the direction of the green arrow",
-      "You must wait for a full green light",
-      "You may go straight only",
-      "All traffic must stop"
-    ],
-    "correct": 0,
-    "explanation": "The green arrow permits movement only in the arrow's direction despite the red light for other movements.",
-    "sourceGroup": 25
-  },
-  {
-    "id": 75,
-    "exam": 3,
-    "category": "Traffic Control",
-    "question": "Which meaning matches a traffic light showing a green arrow and a red light?",
-    "options": [
-      "You may only drive in the direction of the green arrow",
-      "You must wait for a full green light",
-      "You may go straight only",
-      "All traffic must stop"
-    ],
-    "correct": 0,
-    "explanation": "The green arrow permits movement only in the arrow's direction despite the red light for other movements.",
-    "sourceGroup": 25
-  },
-  {
-    "id": 76,
-    "exam": 1,
     "category": "Traffic Control",
     "question": "Which must you obey over a stop sign, flashing red light, or steady red light?",
     "options": [
@@ -1141,38 +391,8 @@ const questions = [
     "sourceGroup": 26
   },
   {
-    "id": 77,
-    "exam": 2,
-    "category": "Traffic Control",
-    "question": "Select the true statement: which must you obey over a stop sign, flashing red light, or steady red light?",
-    "options": [
-      "A police officer",
-      "A stop sign",
-      "A flashing red light",
-      "A steady red light"
-    ],
-    "correct": 0,
-    "explanation": "Directions from a police officer take priority over signs and signals.",
-    "sourceGroup": 26
-  },
-  {
-    "id": 78,
+    "id": 27,
     "exam": 3,
-    "category": "Traffic Control",
-    "question": "Identify the correct answer: which must you obey over a stop sign, flashing red light, or steady red light?",
-    "options": [
-      "A police officer",
-      "A stop sign",
-      "A flashing red light",
-      "A steady red light"
-    ],
-    "correct": 0,
-    "explanation": "Directions from a police officer take priority over signs and signals.",
-    "sourceGroup": 26
-  },
-  {
-    "id": 79,
-    "exam": 1,
     "category": "Traffic Control",
     "question": "If an intersection has a stop sign and a crosswalk but no stop line, where must you stop?",
     "options": [
@@ -1186,37 +406,7 @@ const questions = [
     "sourceGroup": 27
   },
   {
-    "id": 80,
-    "exam": 2,
-    "category": "Traffic Control",
-    "question": "Scenario: an intersection has a stop sign and a crosswalk but no stop line, where must you stop. What is the best action?",
-    "options": [
-      "With your front wheels in the crosswalk",
-      "At the center of the intersection",
-      "Before the crosswalk",
-      "Fifty feet before the intersection"
-    ],
-    "correct": 2,
-    "explanation": "Without a stop line, you must stop before entering the crosswalk.",
-    "sourceGroup": 27
-  },
-  {
-    "id": 81,
-    "exam": 3,
-    "category": "Traffic Control",
-    "question": "In this situation, if an intersection has a stop sign and a crosswalk but no stop line, where must you stop, what should you do?",
-    "options": [
-      "With your front wheels in the crosswalk",
-      "At the center of the intersection",
-      "Before the crosswalk",
-      "Fifty feet before the intersection"
-    ],
-    "correct": 2,
-    "explanation": "Without a stop line, you must stop before entering the crosswalk.",
-    "sourceGroup": 27
-  },
-  {
-    "id": 82,
+    "id": 28,
     "exam": 1,
     "category": "Traffic Control",
     "question": "When may you cross a single broken white or yellow line?",
@@ -1231,38 +421,8 @@ const questions = [
     "sourceGroup": 28
   },
   {
-    "id": 83,
+    "id": 29,
     "exam": 2,
-    "category": "Traffic Control",
-    "question": "Under which condition may you cross a single broken white or yellow line?",
-    "options": [
-      "Only when doing so will not interfere with traffic",
-      "Only at an intersection",
-      "Never",
-      "Only to pass on a curve"
-    ],
-    "correct": 0,
-    "explanation": "A broken line may be crossed when it is safe and legal to do so.",
-    "sourceGroup": 28
-  },
-  {
-    "id": 84,
-    "exam": 3,
-    "category": "Traffic Control",
-    "question": "Choose when it is legal or appropriate to cross a single broken white or yellow line?",
-    "options": [
-      "Only when doing so will not interfere with traffic",
-      "Only at an intersection",
-      "Never",
-      "Only to pass on a curve"
-    ],
-    "correct": 0,
-    "explanation": "A broken line may be crossed when it is safe and legal to do so.",
-    "sourceGroup": 28
-  },
-  {
-    "id": 85,
-    "exam": 1,
     "category": "Traffic Control",
     "question": "When may you cross a single solid white line on the highway?",
     "options": [
@@ -1276,38 +436,8 @@ const questions = [
     "sourceGroup": 29
   },
   {
-    "id": 86,
-    "exam": 2,
-    "category": "Traffic Control",
-    "question": "Under which condition may you cross a single solid white line on the highway?",
-    "options": [
-      "Whenever you want to change lanes",
-      "Only to make a U-turn",
-      "If traffic conditions require it",
-      "Never under any circumstances"
-    ],
-    "correct": 2,
-    "explanation": "Single solid white lines discourage lane changes, but the line may be crossed when traffic conditions require it.",
-    "sourceGroup": 29
-  },
-  {
-    "id": 87,
+    "id": 30,
     "exam": 3,
-    "category": "Traffic Control",
-    "question": "Choose when it is legal or appropriate to cross a single solid white line on the highway?",
-    "options": [
-      "Whenever you want to change lanes",
-      "Only to make a U-turn",
-      "If traffic conditions require it",
-      "Never under any circumstances"
-    ],
-    "correct": 2,
-    "explanation": "Single solid white lines discourage lane changes, but the line may be crossed when traffic conditions require it.",
-    "sourceGroup": 29
-  },
-  {
-    "id": 88,
-    "exam": 1,
     "category": "Traffic Control",
     "question": "If the road has a solid yellow line and a broken yellow line on your side, when may you pass?",
     "options": [
@@ -1321,37 +451,7 @@ const questions = [
     "sourceGroup": 30
   },
   {
-    "id": 89,
-    "exam": 2,
-    "category": "Traffic Control",
-    "question": "Scenario: the road has a solid yellow line and a broken yellow line on your side, when may you pass. What is the best action?",
-    "options": [
-      "Only at an intersection",
-      "Only in an emergency",
-      "If traffic is clear",
-      "Never"
-    ],
-    "correct": 2,
-    "explanation": "A broken yellow line on your side means passing is allowed if the way is clear.",
-    "sourceGroup": 30
-  },
-  {
-    "id": 90,
-    "exam": 3,
-    "category": "Traffic Control",
-    "question": "In this situation, if the road has a solid yellow line and a broken yellow line on your side, when may you pass, what should you do?",
-    "options": [
-      "Only at an intersection",
-      "Only in an emergency",
-      "If traffic is clear",
-      "Never"
-    ],
-    "correct": 2,
-    "explanation": "A broken yellow line on your side means passing is allowed if the way is clear.",
-    "sourceGroup": 30
-  },
-  {
-    "id": 91,
+    "id": 31,
     "exam": 1,
     "category": "Traffic Control",
     "question": "When may you cross a double solid yellow line?",
@@ -1366,38 +466,8 @@ const questions = [
     "sourceGroup": 31
   },
   {
-    "id": 92,
+    "id": 32,
     "exam": 2,
-    "category": "Traffic Control",
-    "question": "Under which condition may you cross a double solid yellow line?",
-    "options": [
-      "To pass a slow vehicle",
-      "To turn into a driveway",
-      "Whenever there is no oncoming traffic",
-      "Only during daylight hours"
-    ],
-    "correct": 1,
-    "explanation": "Double solid yellow lines cannot be crossed to pass, but you may cross them to enter a driveway.",
-    "sourceGroup": 31
-  },
-  {
-    "id": 93,
-    "exam": 3,
-    "category": "Traffic Control",
-    "question": "Choose when it is legal or appropriate to cross a double solid yellow line?",
-    "options": [
-      "To pass a slow vehicle",
-      "To turn into a driveway",
-      "Whenever there is no oncoming traffic",
-      "Only during daylight hours"
-    ],
-    "correct": 1,
-    "explanation": "Double solid yellow lines cannot be crossed to pass, but you may cross them to enter a driveway.",
-    "sourceGroup": 31
-  },
-  {
-    "id": 94,
-    "exam": 1,
     "category": "Traffic Control",
     "question": "A solid white line on the right edge of the roadway slants toward the left. What does that show?",
     "options": [
@@ -1411,38 +481,8 @@ const questions = [
     "sourceGroup": 32
   },
   {
-    "id": 95,
-    "exam": 2,
-    "category": "Traffic Control",
-    "question": "Choose the best answer for this rule: A solid white line on the right edge of the roadway slants toward the left. What does that show?",
-    "options": [
-      "An intersection is just ahead",
-      "You must turn left soon",
-      "The road will get narrower",
-      "A construction detour begins"
-    ],
-    "correct": 2,
-    "explanation": "That pavement marking shows the roadway is narrowing.",
-    "sourceGroup": 32
-  },
-  {
-    "id": 96,
+    "id": 33,
     "exam": 3,
-    "category": "Traffic Control",
-    "question": "New York permit review \u2014 A solid white line on the right edge of the roadway slants toward the left. What does that show; choose the correct answer below?",
-    "options": [
-      "An intersection is just ahead",
-      "You must turn left soon",
-      "The road will get narrower",
-      "A construction detour begins"
-    ],
-    "correct": 2,
-    "explanation": "That pavement marking shows the roadway is narrowing.",
-    "sourceGroup": 32
-  },
-  {
-    "id": 97,
-    "exam": 1,
     "category": "Traffic Control",
     "question": "What is used on some roads to direct drivers into the correct turning lanes?",
     "options": [
@@ -1456,37 +496,7 @@ const questions = [
     "sourceGroup": 33
   },
   {
-    "id": 98,
-    "exam": 2,
-    "category": "Traffic Control",
-    "question": "Which marking or device is used on some roads to direct drivers into the correct turning lanes?",
-    "options": [
-      "Flashing yellow lights",
-      "White arrows painted in the lanes",
-      "Red edge lines",
-      "Reflective posts only"
-    ],
-    "correct": 1,
-    "explanation": "Lane-use arrows painted on the roadway show which turns or movements are allowed from each lane.",
-    "sourceGroup": 33
-  },
-  {
-    "id": 99,
-    "exam": 3,
-    "category": "Traffic Control",
-    "question": "Choose what is used on some roads to direct drivers into the correct turning lanes?",
-    "options": [
-      "Flashing yellow lights",
-      "White arrows painted in the lanes",
-      "Red edge lines",
-      "Reflective posts only"
-    ],
-    "correct": 1,
-    "explanation": "Lane-use arrows painted on the roadway show which turns or movements are allowed from each lane.",
-    "sourceGroup": 33
-  },
-  {
-    "id": 100,
+    "id": 34,
     "exam": 1,
     "category": "Traffic Control",
     "question": "As you near an intersection, the light changes from green to yellow. What is your best action?",
@@ -1501,38 +511,8 @@ const questions = [
     "sourceGroup": 34
   },
   {
-    "id": 101,
+    "id": 35,
     "exam": 2,
-    "category": "Traffic Control",
-    "question": "Choose the best answer for this rule: As you near an intersection, the light changes from green to yellow. What is your best action?",
-    "options": [
-      "Speed up to beat the red light",
-      "Prepare to stop before the intersection",
-      "Stop in the middle of the intersection",
-      "Drive through without checking traffic"
-    ],
-    "correct": 1,
-    "explanation": "A steady yellow means the signal is about to turn red, so you should prepare to stop safely.",
-    "sourceGroup": 34
-  },
-  {
-    "id": 102,
-    "exam": 3,
-    "category": "Traffic Control",
-    "question": "New York permit review \u2014 As you near an intersection, the light changes from green to yellow. What is your best action; choose the correct answer below?",
-    "options": [
-      "Speed up to beat the red light",
-      "Prepare to stop before the intersection",
-      "Stop in the middle of the intersection",
-      "Drive through without checking traffic"
-    ],
-    "correct": 1,
-    "explanation": "A steady yellow means the signal is about to turn red, so you should prepare to stop safely.",
-    "sourceGroup": 34
-  },
-  {
-    "id": 103,
-    "exam": 1,
     "category": "Intersections and Turns",
     "question": "When you want to make a right turn, where should your vehicle be before the turn?",
     "options": [
@@ -1546,38 +526,8 @@ const questions = [
     "sourceGroup": 35
   },
   {
-    "id": 104,
-    "exam": 2,
-    "category": "Intersections and Turns",
-    "question": "Choose the best answer for this rule: When you want to make a right turn, where should your vehicle be before the turn?",
-    "options": [
-      "Near the center of the street",
-      "Close to the right side of the street",
-      "Close to the left side of the street",
-      "Past the center of the intersection"
-    ],
-    "correct": 1,
-    "explanation": "For a right turn, position the vehicle near the right curb or right edge of the roadway.",
-    "sourceGroup": 35
-  },
-  {
-    "id": 105,
+    "id": 36,
     "exam": 3,
-    "category": "Intersections and Turns",
-    "question": "New York permit review \u2014 When you want to make a right turn, where should your vehicle be before the turn; choose the correct answer below?",
-    "options": [
-      "Near the center of the street",
-      "Close to the right side of the street",
-      "Close to the left side of the street",
-      "Past the center of the intersection"
-    ],
-    "correct": 1,
-    "explanation": "For a right turn, position the vehicle near the right curb or right edge of the roadway.",
-    "sourceGroup": 35
-  },
-  {
-    "id": 106,
-    "exam": 1,
     "category": "Intersections and Turns",
     "question": "You are waiting in an intersection to complete a left turn. How should you keep your wheels?",
     "options": [
@@ -1591,37 +541,7 @@ const questions = [
     "sourceGroup": 36
   },
   {
-    "id": 107,
-    "exam": 2,
-    "category": "Intersections and Turns",
-    "question": "Scenario: you are waiting in an intersection to complete a left turn. How should you keep your wheels. What is the best action?",
-    "options": [
-      "Turned left",
-      "Turned right",
-      "Straight",
-      "Pointed toward the curb"
-    ],
-    "correct": 2,
-    "explanation": "Keeping your wheels straight helps prevent being pushed into oncoming traffic if you are hit from behind.",
-    "sourceGroup": 36
-  },
-  {
-    "id": 108,
-    "exam": 3,
-    "category": "Intersections and Turns",
-    "question": "If you are waiting in an intersection to complete a left turn. How should you keep your wheels, what should you do next?",
-    "options": [
-      "Turned left",
-      "Turned right",
-      "Straight",
-      "Pointed toward the curb"
-    ],
-    "correct": 2,
-    "explanation": "Keeping your wheels straight helps prevent being pushed into oncoming traffic if you are hit from behind.",
-    "sourceGroup": 36
-  },
-  {
-    "id": 109,
+    "id": 37,
     "exam": 1,
     "category": "Intersections and Turns",
     "question": "You come to an intersection that is blocked by traffic. What should you do?",
@@ -1636,38 +556,8 @@ const questions = [
     "sourceGroup": 37
   },
   {
-    "id": 110,
+    "id": 38,
     "exam": 2,
-    "category": "Intersections and Turns",
-    "question": "Scenario: you come to an intersection that is blocked by traffic. What should you do. What is the best action?",
-    "options": [
-      "Enter slowly and wait inside the intersection",
-      "Stay out of the intersection until you can pass through it",
-      "Use your horn so traffic moves",
-      "Follow the car ahead as closely as possible"
-    ],
-    "correct": 1,
-    "explanation": "Do not enter a blocked intersection. Wait until there is room to clear it completely.",
-    "sourceGroup": 37
-  },
-  {
-    "id": 111,
-    "exam": 3,
-    "category": "Intersections and Turns",
-    "question": "If you come to an intersection that is blocked by traffic. What should you do, what should you do next?",
-    "options": [
-      "Enter slowly and wait inside the intersection",
-      "Stay out of the intersection until you can pass through it",
-      "Use your horn so traffic moves",
-      "Follow the car ahead as closely as possible"
-    ],
-    "correct": 1,
-    "explanation": "Do not enter a blocked intersection. Wait until there is room to clear it completely.",
-    "sourceGroup": 37
-  },
-  {
-    "id": 112,
-    "exam": 1,
     "category": "Intersections and Turns",
     "question": "You must yield the right-of-way to an approaching vehicle when you are doing what?",
     "options": [
@@ -1681,38 +571,8 @@ const questions = [
     "sourceGroup": 38
   },
   {
-    "id": 113,
-    "exam": 2,
-    "category": "Intersections and Turns",
-    "question": "Scenario: you must yield the right-of-way to an approaching vehicle when you are doing what. What is the best action?",
-    "options": [
-      "Turning left",
-      "Already in a traffic circle",
-      "Already in the intersection",
-      "Going straight through a green light"
-    ],
-    "correct": 0,
-    "explanation": "Drivers turning left must yield to oncoming traffic going straight or turning right.",
-    "sourceGroup": 38
-  },
-  {
-    "id": 114,
+    "id": 39,
     "exam": 3,
-    "category": "Intersections and Turns",
-    "question": "If you must yield the right-of-way to an approaching vehicle when you are doing what, what should you do next?",
-    "options": [
-      "Turning left",
-      "Already in a traffic circle",
-      "Already in the intersection",
-      "Going straight through a green light"
-    ],
-    "correct": 0,
-    "explanation": "Drivers turning left must yield to oncoming traffic going straight or turning right.",
-    "sourceGroup": 38
-  },
-  {
-    "id": 115,
-    "exam": 1,
     "category": "Intersections and Turns",
     "question": "You hear a siren but cannot yet see the emergency vehicle. What should you do?",
     "options": [
@@ -1726,37 +586,7 @@ const questions = [
     "sourceGroup": 39
   },
   {
-    "id": 116,
-    "exam": 2,
-    "category": "Intersections and Turns",
-    "question": "Scenario: you hear a siren but cannot yet see the emergency vehicle. What should you do. What is the best action?",
-    "options": [
-      "Keep driving until you can see it",
-      "Pull to the curb and look to see if it is on your street",
-      "Speed up and turn away from it",
-      "Stop in the center lane"
-    ],
-    "correct": 1,
-    "explanation": "Pull to the right and stop so you can locate the emergency vehicle and yield safely.",
-    "sourceGroup": 39
-  },
-  {
-    "id": 117,
-    "exam": 3,
-    "category": "Intersections and Turns",
-    "question": "If you hear a siren but cannot yet see the emergency vehicle. What should you do, what should you do next?",
-    "options": [
-      "Keep driving until you can see it",
-      "Pull to the curb and look to see if it is on your street",
-      "Speed up and turn away from it",
-      "Stop in the center lane"
-    ],
-    "correct": 1,
-    "explanation": "Pull to the right and stop so you can locate the emergency vehicle and yield safely.",
-    "sourceGroup": 39
-  },
-  {
-    "id": 118,
+    "id": 40,
     "exam": 1,
     "category": "Intersections and Turns",
     "question": "You are making a left turn from a two-way street into a one-way street. Which lane should you enter?",
@@ -1771,38 +601,8 @@ const questions = [
     "sourceGroup": 40
   },
   {
-    "id": 119,
+    "id": 41,
     "exam": 2,
-    "category": "Intersections and Turns",
-    "question": "Scenario: you are making a left turn from a two-way street into a one-way street. Which lane should you enter. What is the best action?",
-    "options": [
-      "The right lane",
-      "The center lane",
-      "The left lane",
-      "Any lane with the least traffic"
-    ],
-    "correct": 2,
-    "explanation": "A left turn into a one-way street should end in the left lane of that street.",
-    "sourceGroup": 40
-  },
-  {
-    "id": 120,
-    "exam": 3,
-    "category": "Intersections and Turns",
-    "question": "If you are making a left turn from a two-way street into a one-way street. Which lane should you enter, what should you do next?",
-    "options": [
-      "The right lane",
-      "The center lane",
-      "The left lane",
-      "Any lane with the least traffic"
-    ],
-    "correct": 2,
-    "explanation": "A left turn into a one-way street should end in the left lane of that street.",
-    "sourceGroup": 40
-  },
-  {
-    "id": 121,
-    "exam": 1,
     "category": "Intersections and Turns",
     "question": "When do you have the right-of-way in a traffic circle?",
     "options": [
@@ -1816,38 +616,8 @@ const questions = [
     "sourceGroup": 41
   },
   {
-    "id": 122,
-    "exam": 2,
-    "category": "Intersections and Turns",
-    "question": "Choose the best answer for this rule: When do you have the right-of-way in a traffic circle?",
-    "options": [
-      "When you are entering it",
-      "When you are already in it",
-      "Only if you are turning right",
-      "Only if you honk first"
-    ],
-    "correct": 1,
-    "explanation": "Vehicles already in the traffic circle have the right-of-way.",
-    "sourceGroup": 41
-  },
-  {
-    "id": 123,
+    "id": 42,
     "exam": 3,
-    "category": "Intersections and Turns",
-    "question": "New York permit review \u2014 When do you have the right-of-way in a traffic circle; choose the correct answer below?",
-    "options": [
-      "When you are entering it",
-      "When you are already in it",
-      "Only if you are turning right",
-      "Only if you honk first"
-    ],
-    "correct": 1,
-    "explanation": "Vehicles already in the traffic circle have the right-of-way.",
-    "sourceGroup": 41
-  },
-  {
-    "id": 124,
-    "exam": 1,
     "category": "Intersections and Turns",
     "question": "What must you do when entering a roadway from a private road or driveway?",
     "options": [
@@ -1861,37 +631,7 @@ const questions = [
     "sourceGroup": 42
   },
   {
-    "id": 125,
-    "exam": 2,
-    "category": "Intersections and Turns",
-    "question": "Choose the best answer for this rule: What must you do when entering a roadway from a private road or driveway?",
-    "options": [
-      "Merge quickly so traffic does not slow down",
-      "Yield the right-of-way to pedestrians and roadway traffic",
-      "Stop partly in the roadway so others can see you",
-      "Sound your horn and pull out"
-    ],
-    "correct": 1,
-    "explanation": "Drivers entering from private roads must yield to all pedestrians and traffic on the roadway.",
-    "sourceGroup": 42
-  },
-  {
-    "id": 126,
-    "exam": 3,
-    "category": "Intersections and Turns",
-    "question": "New York permit review \u2014 What must you do when entering a roadway from a private road or driveway; choose the correct answer below?",
-    "options": [
-      "Merge quickly so traffic does not slow down",
-      "Yield the right-of-way to pedestrians and roadway traffic",
-      "Stop partly in the roadway so others can see you",
-      "Sound your horn and pull out"
-    ],
-    "correct": 1,
-    "explanation": "Drivers entering from private roads must yield to all pedestrians and traffic on the roadway.",
-    "sourceGroup": 42
-  },
-  {
-    "id": 127,
+    "id": 43,
     "exam": 1,
     "category": "Intersections and Turns",
     "question": "You want to turn left at a green light, but oncoming traffic is heavy. What should you do?",
@@ -1906,38 +646,8 @@ const questions = [
     "sourceGroup": 43
   },
   {
-    "id": 128,
+    "id": 44,
     "exam": 2,
-    "category": "Intersections and Turns",
-    "question": "Scenario: you want to turn left at a green light, but oncoming traffic is heavy. What should you do. What is the best action?",
-    "options": [
-      "Take the right-of-way because your light is green",
-      "Wait at the crosswalk",
-      "Wait in the center of the intersection until traffic clears",
-      "Use the shoulder to go around oncoming cars"
-    ],
-    "correct": 2,
-    "explanation": "You may enter the intersection and wait to turn left when the light is green, as long as you yield to oncoming traffic.",
-    "sourceGroup": 43
-  },
-  {
-    "id": 129,
-    "exam": 3,
-    "category": "Intersections and Turns",
-    "question": "If you want to turn left at a green light, but oncoming traffic is heavy. What should you do, what should you do next?",
-    "options": [
-      "Take the right-of-way because your light is green",
-      "Wait at the crosswalk",
-      "Wait in the center of the intersection until traffic clears",
-      "Use the shoulder to go around oncoming cars"
-    ],
-    "correct": 2,
-    "explanation": "You may enter the intersection and wait to turn left when the light is green, as long as you yield to oncoming traffic.",
-    "sourceGroup": 43
-  },
-  {
-    "id": 130,
-    "exam": 1,
     "category": "Intersections and Turns",
     "question": "How far before a turn or lane change does New York law require you to signal?",
     "options": [
@@ -1951,38 +661,8 @@ const questions = [
     "sourceGroup": 44
   },
   {
-    "id": 131,
-    "exam": 2,
-    "category": "Intersections and Turns",
-    "question": "What is the correct distance when before a turn or lane change does New York law require you to signal?",
-    "options": [
-      "At least 50 feet",
-      "At least 75 feet",
-      "At least 100 feet",
-      "At least 200 feet"
-    ],
-    "correct": 2,
-    "explanation": "New York requires a signal at least 100 feet before a turn or lane change.",
-    "sourceGroup": 44
-  },
-  {
-    "id": 132,
+    "id": 45,
     "exam": 3,
-    "category": "Intersections and Turns",
-    "question": "Choose the required distance for this rule: before a turn or lane change does New York law require you to signal?",
-    "options": [
-      "At least 50 feet",
-      "At least 75 feet",
-      "At least 100 feet",
-      "At least 200 feet"
-    ],
-    "correct": 2,
-    "explanation": "New York requires a signal at least 100 feet before a turn or lane change.",
-    "sourceGroup": 44
-  },
-  {
-    "id": 133,
-    "exam": 1,
     "category": "Intersections and Turns",
     "question": "When two vehicles enter an intersection from different roads at the same time, which one must yield?",
     "options": [
@@ -1996,37 +676,7 @@ const questions = [
     "sourceGroup": 45
   },
   {
-    "id": 134,
-    "exam": 2,
-    "category": "Intersections and Turns",
-    "question": "Choose the best answer for this rule: When two vehicles enter an intersection from different roads at the same time, which one must yield?",
-    "options": [
-      "The vehicle on the right",
-      "Neither vehicle",
-      "The vehicle on the left",
-      "The larger vehicle"
-    ],
-    "correct": 2,
-    "explanation": "At the same time, the driver on the left yields to the driver on the right.",
-    "sourceGroup": 45
-  },
-  {
-    "id": 135,
-    "exam": 3,
-    "category": "Intersections and Turns",
-    "question": "New York permit review \u2014 When two vehicles enter an intersection from different roads at the same time, which one must yield; choose the correct answer below?",
-    "options": [
-      "The vehicle on the right",
-      "Neither vehicle",
-      "The vehicle on the left",
-      "The larger vehicle"
-    ],
-    "correct": 2,
-    "explanation": "At the same time, the driver on the left yields to the driver on the right.",
-    "sourceGroup": 45
-  },
-  {
-    "id": 136,
+    "id": 46,
     "exam": 1,
     "category": "Intersections and Turns",
     "question": "What should you do when you see an emergency vehicle parked with emergency or hazard lights activated on a highway or parkway?",
@@ -2041,38 +691,8 @@ const questions = [
     "sourceGroup": 46
   },
   {
-    "id": 137,
+    "id": 47,
     "exam": 2,
-    "category": "Intersections and Turns",
-    "question": "In this situation, what should you do when you see an emergency vehicle parked with emergency or hazard lights activated on a highway or parkway?",
-    "options": [
-      "Maintain your speed and lane",
-      "Move out of the lane closest to the vehicle if you can do so safely",
-      "Make a U-turn to avoid it",
-      "Stop behind it with hazard flashers on"
-    ],
-    "correct": 1,
-    "explanation": "New York's Move Over Law requires drivers to move over when possible or slow down when approaching stopped emergency or hazard vehicles.",
-    "sourceGroup": 46
-  },
-  {
-    "id": 138,
-    "exam": 3,
-    "category": "Intersections and Turns",
-    "question": "Choose the safest action when you see an emergency vehicle parked with emergency or hazard lights activated on a highway or parkway?",
-    "options": [
-      "Maintain your speed and lane",
-      "Move out of the lane closest to the vehicle if you can do so safely",
-      "Make a U-turn to avoid it",
-      "Stop behind it with hazard flashers on"
-    ],
-    "correct": 1,
-    "explanation": "New York's Move Over Law requires drivers to move over when possible or slow down when approaching stopped emergency or hazard vehicles.",
-    "sourceGroup": 46
-  },
-  {
-    "id": 139,
-    "exam": 1,
     "category": "Intersections and Turns",
     "question": "Which vehicles require you to pull over and stop when they are responding to an emergency?",
     "options": [
@@ -2086,38 +706,8 @@ const questions = [
     "sourceGroup": 47
   },
   {
-    "id": 140,
-    "exam": 2,
-    "category": "Intersections and Turns",
-    "question": "Select the true statement: which vehicles require you to pull over and stop when they are responding to an emergency?",
-    "options": [
-      "Vehicles displaying blue, green, or amber lights only",
-      "Authorized emergency vehicles",
-      "All stopped school buses",
-      "Any tow truck"
-    ],
-    "correct": 1,
-    "explanation": "You must yield by pulling over and stopping for authorized emergency vehicles using sirens or lights.",
-    "sourceGroup": 47
-  },
-  {
-    "id": 141,
+    "id": 48,
     "exam": 3,
-    "category": "Intersections and Turns",
-    "question": "Identify the correct answer: which vehicles require you to pull over and stop when they are responding to an emergency?",
-    "options": [
-      "Vehicles displaying blue, green, or amber lights only",
-      "Authorized emergency vehicles",
-      "All stopped school buses",
-      "Any tow truck"
-    ],
-    "correct": 1,
-    "explanation": "You must yield by pulling over and stopping for authorized emergency vehicles using sirens or lights.",
-    "sourceGroup": 47
-  },
-  {
-    "id": 142,
-    "exam": 1,
     "category": "Intersections and Turns",
     "question": "What is the name of the law that requires drivers to use care around stopped emergency or hazard vehicles with activated lights?",
     "options": [
@@ -2131,37 +721,7 @@ const questions = [
     "sourceGroup": 48
   },
   {
-    "id": 143,
-    "exam": 2,
-    "category": "Intersections and Turns",
-    "question": "Choose the correct name for the law that requires drivers to use care around stopped emergency or hazard vehicles with activated lights?",
-    "options": [
-      "Right-of-Way Law",
-      "Move Over Law",
-      "Green Light Law",
-      "Brianna's Law"
-    ],
-    "correct": 1,
-    "explanation": "The Move Over Law requires drivers to move over when possible or slow down around stopped emergency and hazard vehicles.",
-    "sourceGroup": 48
-  },
-  {
-    "id": 144,
-    "exam": 3,
-    "category": "Intersections and Turns",
-    "question": "What is the proper term for the law that requires drivers to use care around stopped emergency or hazard vehicles with activated lights?",
-    "options": [
-      "Right-of-Way Law",
-      "Move Over Law",
-      "Green Light Law",
-      "Brianna's Law"
-    ],
-    "correct": 1,
-    "explanation": "The Move Over Law requires drivers to move over when possible or slow down around stopped emergency and hazard vehicles.",
-    "sourceGroup": 48
-  },
-  {
-    "id": 145,
+    "id": 49,
     "exam": 1,
     "category": "Intersections and Turns",
     "question": "A driver approaching an intersection must yield the right-of-way to what traffic?",
@@ -2176,38 +736,8 @@ const questions = [
     "sourceGroup": 49
   },
   {
-    "id": 146,
+    "id": 50,
     "exam": 2,
-    "category": "Intersections and Turns",
-    "question": "Choose the best answer for this rule: A driver approaching an intersection must yield the right-of-way to what traffic?",
-    "options": [
-      "Traffic that is already in the intersection",
-      "Only vehicles on the left",
-      "Only vehicles making right turns",
-      "Traffic that arrives later"
-    ],
-    "correct": 0,
-    "explanation": "Drivers must yield to vehicles already in the intersection.",
-    "sourceGroup": 49
-  },
-  {
-    "id": 147,
-    "exam": 3,
-    "category": "Intersections and Turns",
-    "question": "New York permit review \u2014 A driver approaching an intersection must yield the right-of-way to what traffic; choose the correct answer below?",
-    "options": [
-      "Traffic that is already in the intersection",
-      "Only vehicles on the left",
-      "Only vehicles making right turns",
-      "Traffic that arrives later"
-    ],
-    "correct": 0,
-    "explanation": "Drivers must yield to vehicles already in the intersection.",
-    "sourceGroup": 49
-  },
-  {
-    "id": 148,
-    "exam": 1,
     "category": "Passing",
     "question": "After passing another vehicle, when should you return to the right lane?",
     "options": [
@@ -2221,38 +751,8 @@ const questions = [
     "sourceGroup": 50
   },
   {
-    "id": 149,
-    "exam": 2,
-    "category": "Passing",
-    "question": "Choose the best answer for this rule: After passing another vehicle, when should you return to the right lane?",
-    "options": [
-      "As soon as your turn signal is on",
-      "When you can see the front bumper of the other vehicle in your mirror",
-      "When the other driver flashes headlights",
-      "Immediately after moving ahead of its hood"
-    ],
-    "correct": 1,
-    "explanation": "Wait until you can see the front bumper of the passed vehicle in your mirror before moving back right.",
-    "sourceGroup": 50
-  },
-  {
-    "id": 150,
+    "id": 51,
     "exam": 3,
-    "category": "Passing",
-    "question": "New York permit review \u2014 After passing another vehicle, when should you return to the right lane; choose the correct answer below?",
-    "options": [
-      "As soon as your turn signal is on",
-      "When you can see the front bumper of the other vehicle in your mirror",
-      "When the other driver flashes headlights",
-      "Immediately after moving ahead of its hood"
-    ],
-    "correct": 1,
-    "explanation": "Wait until you can see the front bumper of the passed vehicle in your mirror before moving back right.",
-    "sourceGroup": 50
-  },
-  {
-    "id": 151,
-    "exam": 1,
     "category": "Passing",
     "question": "In which situation is passing always forbidden?",
     "options": [
@@ -2266,37 +766,7 @@ const questions = [
     "sourceGroup": 51
   },
   {
-    "id": 152,
-    "exam": 2,
-    "category": "Passing",
-    "question": "Choose the best answer for this rule: In which situation is passing always forbidden?",
-    "options": [
-      "When the vehicle ahead is turning left",
-      "When the vehicle ahead is stopped for a pedestrian in a crosswalk",
-      "On a one-way street with two lanes",
-      "When the vehicle ahead is parking at the curb"
-    ],
-    "correct": 1,
-    "explanation": "You may never pass a vehicle that is stopped for a pedestrian in a crosswalk.",
-    "sourceGroup": 51
-  },
-  {
-    "id": 153,
-    "exam": 3,
-    "category": "Passing",
-    "question": "New York permit review \u2014 In which situation is passing always forbidden; choose the correct answer below?",
-    "options": [
-      "When the vehicle ahead is turning left",
-      "When the vehicle ahead is stopped for a pedestrian in a crosswalk",
-      "On a one-way street with two lanes",
-      "When the vehicle ahead is parking at the curb"
-    ],
-    "correct": 1,
-    "explanation": "You may never pass a vehicle that is stopped for a pedestrian in a crosswalk.",
-    "sourceGroup": 51
-  },
-  {
-    "id": 154,
+    "id": 52,
     "exam": 1,
     "category": "Passing",
     "question": "When may you pass another vehicle on the right?",
@@ -2311,38 +781,8 @@ const questions = [
     "sourceGroup": 52
   },
   {
-    "id": 155,
+    "id": 53,
     "exam": 2,
-    "category": "Passing",
-    "question": "Under which condition may you pass another vehicle on the right?",
-    "options": [
-      "When it is waiting to turn left",
-      "Whenever you are in a hurry",
-      "Only on curves",
-      "Only if you honk first"
-    ],
-    "correct": 0,
-    "explanation": "Passing on the right is permitted in limited cases, such as when the other vehicle is waiting to turn left.",
-    "sourceGroup": 52
-  },
-  {
-    "id": 156,
-    "exam": 3,
-    "category": "Passing",
-    "question": "Choose when it is legal or appropriate to pass another vehicle on the right?",
-    "options": [
-      "When it is waiting to turn left",
-      "Whenever you are in a hurry",
-      "Only on curves",
-      "Only if you honk first"
-    ],
-    "correct": 0,
-    "explanation": "Passing on the right is permitted in limited cases, such as when the other vehicle is waiting to turn left.",
-    "sourceGroup": 52
-  },
-  {
-    "id": 157,
-    "exam": 1,
     "category": "Passing",
     "question": "On a three-lane expressway, another driver begins passing you on the right. When is that action allowed?",
     "options": [
@@ -2356,38 +796,8 @@ const questions = [
     "sourceGroup": 53
   },
   {
-    "id": 158,
-    "exam": 2,
-    "category": "Passing",
-    "question": "Choose the best answer for this rule: On a three-lane expressway, another driver begins passing you on the right. When is that action allowed?",
-    "options": [
-      "Never",
-      "Only if that driver uses a horn",
-      "As long as no signs forbid passing on the right",
-      "Only if you slow to a stop"
-    ],
-    "correct": 2,
-    "explanation": "Passing on the right can be legal on multi-lane roads if signs do not prohibit it and it is done safely.",
-    "sourceGroup": 53
-  },
-  {
-    "id": 159,
+    "id": 54,
     "exam": 3,
-    "category": "Passing",
-    "question": "New York permit review \u2014 On a three-lane expressway, another driver begins passing you on the right. When is that action allowed; choose the correct answer below?",
-    "options": [
-      "Never",
-      "Only if that driver uses a horn",
-      "As long as no signs forbid passing on the right",
-      "Only if you slow to a stop"
-    ],
-    "correct": 2,
-    "explanation": "Passing on the right can be legal on multi-lane roads if signs do not prohibit it and it is done safely.",
-    "sourceGroup": 53
-  },
-  {
-    "id": 160,
-    "exam": 1,
     "category": "Passing",
     "question": "What does it mean when a school bus is stopped and its red lights are flashing?",
     "options": [
@@ -2401,37 +811,7 @@ const questions = [
     "sourceGroup": 54
   },
   {
-    "id": 161,
-    "exam": 2,
-    "category": "Passing",
-    "question": "Choose the best answer for this rule: What does it mean when a school bus is stopped and its red lights are flashing?",
-    "options": [
-      "You may pass if no children are in the roadway",
-      "You may not pass while the red lights are flashing",
-      "You may pass if you are approaching from the front",
-      "You may pass if traffic behind you is heavy"
-    ],
-    "correct": 1,
-    "explanation": "Red flashing school bus lights mean traffic must stop and may not pass until the lights stop flashing.",
-    "sourceGroup": 54
-  },
-  {
-    "id": 162,
-    "exam": 3,
-    "category": "Passing",
-    "question": "New York permit review \u2014 What does it mean when a school bus is stopped and its red lights are flashing; choose the correct answer below?",
-    "options": [
-      "You may pass if no children are in the roadway",
-      "You may not pass while the red lights are flashing",
-      "You may pass if you are approaching from the front",
-      "You may pass if traffic behind you is heavy"
-    ],
-    "correct": 1,
-    "explanation": "Red flashing school bus lights mean traffic must stop and may not pass until the lights stop flashing.",
-    "sourceGroup": 54
-  },
-  {
-    "id": 163,
+    "id": 55,
     "exam": 1,
     "category": "Passing",
     "question": "When you want to overtake and pass another vehicle, what should you do first?",
@@ -2446,38 +826,8 @@ const questions = [
     "sourceGroup": 55
   },
   {
-    "id": 164,
+    "id": 56,
     "exam": 2,
-    "category": "Passing",
-    "question": "Choose the best answer for this rule: When you want to overtake and pass another vehicle, what should you do first?",
-    "options": [
-      "Stay close behind it to shorten the pass",
-      "Signal and pass only when it is safe",
-      "Wait for the other driver to wave you around",
-      "Change lanes suddenly so the driver notices you"
-    ],
-    "correct": 1,
-    "explanation": "Check mirrors, signal, and pass only when the road is clear and legal.",
-    "sourceGroup": 55
-  },
-  {
-    "id": 165,
-    "exam": 3,
-    "category": "Passing",
-    "question": "New York permit review \u2014 When you want to overtake and pass another vehicle, what should you do first; choose the correct answer below?",
-    "options": [
-      "Stay close behind it to shorten the pass",
-      "Signal and pass only when it is safe",
-      "Wait for the other driver to wave you around",
-      "Change lanes suddenly so the driver notices you"
-    ],
-    "correct": 1,
-    "explanation": "Check mirrors, signal, and pass only when the road is clear and legal.",
-    "sourceGroup": 55
-  },
-  {
-    "id": 166,
-    "exam": 1,
     "category": "Passing",
     "question": "In general, on which side should you pass vehicles moving in the same direction?",
     "options": [
@@ -2491,38 +841,8 @@ const questions = [
     "sourceGroup": 56
   },
   {
-    "id": 167,
-    "exam": 2,
-    "category": "Passing",
-    "question": "Choose the best answer for this rule: In general, on which side should you pass vehicles moving in the same direction?",
-    "options": [
-      "On the shoulder",
-      "On the right",
-      "On the left",
-      "On either side"
-    ],
-    "correct": 2,
-    "explanation": "The normal rule is to pass on the left.",
-    "sourceGroup": 56
-  },
-  {
-    "id": 168,
+    "id": 57,
     "exam": 3,
-    "category": "Passing",
-    "question": "New York permit review \u2014 In general, on which side should you pass vehicles moving in the same direction; choose the correct answer below?",
-    "options": [
-      "On the shoulder",
-      "On the right",
-      "On the left",
-      "On either side"
-    ],
-    "correct": 2,
-    "explanation": "The normal rule is to pass on the left.",
-    "sourceGroup": 56
-  },
-  {
-    "id": 169,
-    "exam": 1,
     "category": "Passing",
     "question": "The vehicle behind you begins to pass. What should you do?",
     "options": [
@@ -2536,37 +856,7 @@ const questions = [
     "sourceGroup": 57
   },
   {
-    "id": 170,
-    "exam": 2,
-    "category": "Passing",
-    "question": "Choose the best answer for this rule: The vehicle behind you begins to pass. What should you do?",
-    "options": [
-      "Maintain speed and honk",
-      "Slow slightly and stay in your lane",
-      "Move left to block the pass",
-      "Speed up so traffic keeps moving"
-    ],
-    "correct": 1,
-    "explanation": "Help the passing driver by staying in your lane and slowing slightly if needed.",
-    "sourceGroup": 57
-  },
-  {
-    "id": 171,
-    "exam": 3,
-    "category": "Passing",
-    "question": "New York permit review \u2014 The vehicle behind you begins to pass. What should you do; choose the correct answer below?",
-    "options": [
-      "Maintain speed and honk",
-      "Slow slightly and stay in your lane",
-      "Move left to block the pass",
-      "Speed up so traffic keeps moving"
-    ],
-    "correct": 1,
-    "explanation": "Help the passing driver by staying in your lane and slowing slightly if needed.",
-    "sourceGroup": 57
-  },
-  {
-    "id": 172,
+    "id": 58,
     "exam": 1,
     "category": "Parking",
     "question": "In a parking space reserved for people with disabilities, a non-disabled driver may do what?",
@@ -2581,38 +871,8 @@ const questions = [
     "sourceGroup": 58
   },
   {
-    "id": 173,
+    "id": 59,
     "exam": 2,
-    "category": "Parking",
-    "question": "Choose the best answer for this rule: In a parking space reserved for people with disabilities, a non-disabled driver may do what?",
-    "options": [
-      "Park only in an emergency",
-      "Stop briefly to unload packages",
-      "Neither park, stop, nor stand there",
-      "Stand there if staying in the vehicle"
-    ],
-    "correct": 2,
-    "explanation": "Reserved disabled spaces may not be used by drivers without the proper permit or plates transporting the eligible person.",
-    "sourceGroup": 58
-  },
-  {
-    "id": 174,
-    "exam": 3,
-    "category": "Parking",
-    "question": "New York permit review \u2014 In a parking space reserved for people with disabilities, a non-disabled driver may do what; choose the correct answer below?",
-    "options": [
-      "Park only in an emergency",
-      "Stop briefly to unload packages",
-      "Neither park, stop, nor stand there",
-      "Stand there if staying in the vehicle"
-    ],
-    "correct": 2,
-    "explanation": "Reserved disabled spaces may not be used by drivers without the proper permit or plates transporting the eligible person.",
-    "sourceGroup": 58
-  },
-  {
-    "id": 175,
-    "exam": 1,
     "category": "Parking",
     "question": "Before leaving a parking space parallel to the curb, how should you check for traffic?",
     "options": [
@@ -2626,38 +886,8 @@ const questions = [
     "sourceGroup": 59
   },
   {
-    "id": 176,
-    "exam": 2,
-    "category": "Parking",
-    "question": "Choose the best answer for this rule: Before leaving a parking space parallel to the curb, how should you check for traffic?",
-    "options": [
-      "Use only the inside mirror",
-      "Sound your horn",
-      "Turn your head and look for traffic",
-      "Use your flashers first"
-    ],
-    "correct": 2,
-    "explanation": "Turning your head helps you check blind spots before pulling out.",
-    "sourceGroup": 59
-  },
-  {
-    "id": 177,
+    "id": 60,
     "exam": 3,
-    "category": "Parking",
-    "question": "New York permit review \u2014 Before leaving a parking space parallel to the curb, how should you check for traffic; choose the correct answer below?",
-    "options": [
-      "Use only the inside mirror",
-      "Sound your horn",
-      "Turn your head and look for traffic",
-      "Use your flashers first"
-    ],
-    "correct": 2,
-    "explanation": "Turning your head helps you check blind spots before pulling out.",
-    "sourceGroup": 59
-  },
-  {
-    "id": 178,
-    "exam": 1,
     "category": "Parking",
     "question": "What does a no stopping sign mean?",
     "options": [
@@ -2671,37 +901,7 @@ const questions = [
     "sourceGroup": 60
   },
   {
-    "id": 179,
-    "exam": 2,
-    "category": "Parking",
-    "question": "A driver sees a no stopping sign. What does it mean?",
-    "options": [
-      "You may stop briefly to discharge passengers",
-      "You may stop only to obey traffic, a signal, an officer, or avoid conflict",
-      "You may stop for less than five minutes",
-      "You may stop to unload packages"
-    ],
-    "correct": 1,
-    "explanation": "A no stopping zone allows stopping only for legal necessity or to avoid danger.",
-    "sourceGroup": 60
-  },
-  {
-    "id": 180,
-    "exam": 3,
-    "category": "Parking",
-    "question": "Which meaning matches a no stopping sign?",
-    "options": [
-      "You may stop briefly to discharge passengers",
-      "You may stop only to obey traffic, a signal, an officer, or avoid conflict",
-      "You may stop for less than five minutes",
-      "You may stop to unload packages"
-    ],
-    "correct": 1,
-    "explanation": "A no stopping zone allows stopping only for legal necessity or to avoid danger.",
-    "sourceGroup": 60
-  },
-  {
-    "id": 181,
+    "id": 61,
     "exam": 1,
     "category": "Parking",
     "question": "When may a vehicle use disabled parking plates or a disabled parking permit to park in a reserved space?",
@@ -2716,38 +916,8 @@ const questions = [
     "sourceGroup": 61
   },
   {
-    "id": 182,
+    "id": 62,
     "exam": 2,
-    "category": "Parking",
-    "question": "Under which condition may you a vehicle use disabled parking plates or a disabled parking permit to park in a reserved space?",
-    "options": [
-      "Any time the driver has the permit in the glove box",
-      "Only when the disabled person connected to the permit or registration is being transported",
-      "Whenever a family member is disabled",
-      "Only on weekdays"
-    ],
-    "correct": 1,
-    "explanation": "Reserved parking is allowed only when the person who qualifies for the permit or plates is being transported.",
-    "sourceGroup": 61
-  },
-  {
-    "id": 183,
-    "exam": 3,
-    "category": "Parking",
-    "question": "Choose when it is legal or appropriate to a vehicle use disabled parking plates or a disabled parking permit to park in a reserved space?",
-    "options": [
-      "Any time the driver has the permit in the glove box",
-      "Only when the disabled person connected to the permit or registration is being transported",
-      "Whenever a family member is disabled",
-      "Only on weekdays"
-    ],
-    "correct": 1,
-    "explanation": "Reserved parking is allowed only when the person who qualifies for the permit or plates is being transported.",
-    "sourceGroup": 61
-  },
-  {
-    "id": 184,
-    "exam": 1,
     "category": "Parking",
     "question": "After parallel parking on a level street between two cars, what should you do with the front wheels?",
     "options": [
@@ -2761,38 +931,8 @@ const questions = [
     "sourceGroup": 62
   },
   {
-    "id": 185,
-    "exam": 2,
-    "category": "Parking",
-    "question": "Choose the best answer for this rule: After parallel parking on a level street between two cars, what should you do with the front wheels?",
-    "options": [
-      "Leave them turned toward the curb",
-      "Straighten them and leave room between cars",
-      "Turn them away from the curb",
-      "Turn them sharply left"
-    ],
-    "correct": 1,
-    "explanation": "After parking on a level street, straighten the wheels and leave space from the cars ahead and behind.",
-    "sourceGroup": 62
-  },
-  {
-    "id": 186,
+    "id": 63,
     "exam": 3,
-    "category": "Parking",
-    "question": "New York permit review \u2014 After parallel parking on a level street between two cars, what should you do with the front wheels; choose the correct answer below?",
-    "options": [
-      "Leave them turned toward the curb",
-      "Straighten them and leave room between cars",
-      "Turn them away from the curb",
-      "Turn them sharply left"
-    ],
-    "correct": 1,
-    "explanation": "After parking on a level street, straighten the wheels and leave space from the cars ahead and behind.",
-    "sourceGroup": 62
-  },
-  {
-    "id": 187,
-    "exam": 1,
     "category": "Parking",
     "question": "Where may you never park?",
     "options": [
@@ -2806,37 +946,7 @@ const questions = [
     "sourceGroup": 63
   },
   {
-    "id": 188,
-    "exam": 2,
-    "category": "Parking",
-    "question": "Choose the location where parking is never allowed?",
-    "options": [
-      "On a one-way street",
-      "At the entrance to a building",
-      "In a crosswalk",
-      "On the right side of the road"
-    ],
-    "correct": 2,
-    "explanation": "Parking in a crosswalk is always illegal.",
-    "sourceGroup": 63
-  },
-  {
-    "id": 189,
-    "exam": 3,
-    "category": "Parking",
-    "question": "Where is parking always prohibited?",
-    "options": [
-      "On a one-way street",
-      "At the entrance to a building",
-      "In a crosswalk",
-      "On the right side of the road"
-    ],
-    "correct": 2,
-    "explanation": "Parking in a crosswalk is always illegal.",
-    "sourceGroup": 63
-  },
-  {
-    "id": 190,
+    "id": 64,
     "exam": 1,
     "category": "Parking",
     "question": "What does a no parking sign mean?",
@@ -2851,38 +961,8 @@ const questions = [
     "sourceGroup": 64
   },
   {
-    "id": 191,
+    "id": 65,
     "exam": 2,
-    "category": "Parking",
-    "question": "A driver sees a no parking sign. What does it mean?",
-    "options": [
-      "You may never stop there for any reason",
-      "You may stop temporarily to load or unload passengers or merchandise",
-      "You may leave the vehicle for less than five minutes",
-      "You may park if the driver stays inside"
-    ],
-    "correct": 1,
-    "explanation": "No parking still allows a temporary stop to load or unload passengers or merchandise.",
-    "sourceGroup": 64
-  },
-  {
-    "id": 192,
-    "exam": 3,
-    "category": "Parking",
-    "question": "Which meaning matches a no parking sign?",
-    "options": [
-      "You may never stop there for any reason",
-      "You may stop temporarily to load or unload passengers or merchandise",
-      "You may leave the vehicle for less than five minutes",
-      "You may park if the driver stays inside"
-    ],
-    "correct": 1,
-    "explanation": "No parking still allows a temporary stop to load or unload passengers or merchandise.",
-    "sourceGroup": 64
-  },
-  {
-    "id": 193,
-    "exam": 1,
     "category": "Parking",
     "question": "When may you get out of a car on the traffic side if you are parked parallel to the curb?",
     "options": [
@@ -2896,38 +976,8 @@ const questions = [
     "sourceGroup": 65
   },
   {
-    "id": 194,
-    "exam": 2,
-    "category": "Parking",
-    "question": "Under which condition may you get out of a car on the traffic side if you are parked parallel to the curb?",
-    "options": [
-      "Only during daylight hours",
-      "Only after using four-way flashers",
-      "When doing so will not interfere with traffic",
-      "Only when the nearest light turns red"
-    ],
-    "correct": 2,
-    "explanation": "You may exit on the traffic side only when it will not interfere with other road users.",
-    "sourceGroup": 65
-  },
-  {
-    "id": 195,
+    "id": 66,
     "exam": 3,
-    "category": "Parking",
-    "question": "Choose when it is legal or appropriate to get out of a car on the traffic side if you are parked parallel to the curb?",
-    "options": [
-      "Only during daylight hours",
-      "Only after using four-way flashers",
-      "When doing so will not interfere with traffic",
-      "Only when the nearest light turns red"
-    ],
-    "correct": 2,
-    "explanation": "You may exit on the traffic side only when it will not interfere with other road users.",
-    "sourceGroup": 65
-  },
-  {
-    "id": 196,
-    "exam": 1,
     "category": "Parking",
     "question": "What does a no standing sign mean?",
     "options": [
@@ -2941,37 +991,7 @@ const questions = [
     "sourceGroup": 66
   },
   {
-    "id": 197,
-    "exam": 2,
-    "category": "Parking",
-    "question": "A driver sees a no standing sign. What does it mean?",
-    "options": [
-      "You may stop to load or unload merchandise",
-      "You may stop only temporarily to pick up or discharge passengers",
-      "You may never stop under any circumstances",
-      "You may park if you stay in the car"
-    ],
-    "correct": 1,
-    "explanation": "No standing allows a temporary stop only to pick up or drop off passengers.",
-    "sourceGroup": 66
-  },
-  {
-    "id": 198,
-    "exam": 3,
-    "category": "Parking",
-    "question": "Which meaning matches a no standing sign?",
-    "options": [
-      "You may stop to load or unload merchandise",
-      "You may stop only temporarily to pick up or discharge passengers",
-      "You may never stop under any circumstances",
-      "You may park if you stay in the car"
-    ],
-    "correct": 1,
-    "explanation": "No standing allows a temporary stop only to pick up or drop off passengers.",
-    "sourceGroup": 66
-  },
-  {
-    "id": 199,
+    "id": 67,
     "exam": 1,
     "category": "Parking",
     "question": "How close may you park to a fire hydrant in New York?",
@@ -2986,38 +1006,8 @@ const questions = [
     "sourceGroup": 67
   },
   {
-    "id": 200,
+    "id": 68,
     "exam": 2,
-    "category": "Parking",
-    "question": "Choose the correct distance limit: how close may you park to a fire hydrant in New York?",
-    "options": [
-      "No closer than 15 feet",
-      "No closer than 10 feet",
-      "No closer than 20 feet",
-      "No closer than 25 feet"
-    ],
-    "correct": 0,
-    "explanation": "State rules prohibit parking within 15 feet of a fire hydrant.",
-    "sourceGroup": 67
-  },
-  {
-    "id": 201,
-    "exam": 3,
-    "category": "Parking",
-    "question": "What is the nearest legal distance when may you park to a fire hydrant in New York?",
-    "options": [
-      "No closer than 15 feet",
-      "No closer than 10 feet",
-      "No closer than 20 feet",
-      "No closer than 25 feet"
-    ],
-    "correct": 0,
-    "explanation": "State rules prohibit parking within 15 feet of a fire hydrant.",
-    "sourceGroup": 67
-  },
-  {
-    "id": 202,
-    "exam": 1,
     "category": "Defensive Driving",
     "question": "A safe speed for your vehicle depends mainly on what?",
     "options": [
@@ -3031,38 +1021,8 @@ const questions = [
     "sourceGroup": 68
   },
   {
-    "id": 203,
-    "exam": 2,
-    "category": "Defensive Driving",
-    "question": "Choose the best answer for this rule: A safe speed for your vehicle depends mainly on what?",
-    "options": [
-      "The posted speed limit only",
-      "The driver's confidence",
-      "The weather and road conditions",
-      "How quickly your car accelerates"
-    ],
-    "correct": 2,
-    "explanation": "A safe speed depends on conditions, even when the posted speed limit is higher.",
-    "sourceGroup": 68
-  },
-  {
-    "id": 204,
+    "id": 69,
     "exam": 3,
-    "category": "Defensive Driving",
-    "question": "New York permit review \u2014 A safe speed for your vehicle depends mainly on what; choose the correct answer below?",
-    "options": [
-      "The posted speed limit only",
-      "The driver's confidence",
-      "The weather and road conditions",
-      "How quickly your car accelerates"
-    ],
-    "correct": 2,
-    "explanation": "A safe speed depends on conditions, even when the posted speed limit is higher.",
-    "sourceGroup": 68
-  },
-  {
-    "id": 205,
-    "exam": 1,
     "category": "Defensive Driving",
     "question": "Which statement is always true about road rage?",
     "options": [
@@ -3076,37 +1036,7 @@ const questions = [
     "sourceGroup": 69
   },
   {
-    "id": 206,
-    "exam": 2,
-    "category": "Defensive Driving",
-    "question": "Select the true statement: which statement is always true about road rage?",
-    "options": [
-      "There is nothing you can do to prevent it",
-      "Only violent people experience it",
-      "You should remain polite to aggressive drivers",
-      "You should hold your lane at all costs"
-    ],
-    "correct": 2,
-    "explanation": "Staying calm and not escalating a situation is the safest response.",
-    "sourceGroup": 69
-  },
-  {
-    "id": 207,
-    "exam": 3,
-    "category": "Defensive Driving",
-    "question": "Identify the correct answer: which statement is always true about road rage?",
-    "options": [
-      "There is nothing you can do to prevent it",
-      "Only violent people experience it",
-      "You should remain polite to aggressive drivers",
-      "You should hold your lane at all costs"
-    ],
-    "correct": 2,
-    "explanation": "Staying calm and not escalating a situation is the safest response.",
-    "sourceGroup": 69
-  },
-  {
-    "id": 208,
+    "id": 70,
     "exam": 1,
     "category": "Defensive Driving",
     "question": "Seat belts work best when they are worn by whom?",
@@ -3121,38 +1051,8 @@ const questions = [
     "sourceGroup": 70
   },
   {
-    "id": 209,
+    "id": 71,
     "exam": 2,
-    "category": "Defensive Driving",
-    "question": "Choose the best answer for this rule: Seat belts work best when they are worn by whom?",
-    "options": [
-      "The driver only",
-      "Passengers only on expressways",
-      "All occupants every time they are in the car",
-      "Only people sitting in front"
-    ],
-    "correct": 2,
-    "explanation": "Seat belts protect drivers and passengers best when everyone wears them every trip.",
-    "sourceGroup": 70
-  },
-  {
-    "id": 210,
-    "exam": 3,
-    "category": "Defensive Driving",
-    "question": "New York permit review \u2014 Seat belts work best when they are worn by whom; choose the correct answer below?",
-    "options": [
-      "The driver only",
-      "Passengers only on expressways",
-      "All occupants every time they are in the car",
-      "Only people sitting in front"
-    ],
-    "correct": 2,
-    "explanation": "Seat belts protect drivers and passengers best when everyone wears them every trip.",
-    "sourceGroup": 70
-  },
-  {
-    "id": 211,
-    "exam": 1,
     "category": "Defensive Driving",
     "question": "A lane closed ahead sign warns of a work zone. What should you do?",
     "options": [
@@ -3166,38 +1066,8 @@ const questions = [
     "sourceGroup": 71
   },
   {
-    "id": 212,
-    "exam": 2,
-    "category": "Defensive Driving",
-    "question": "Choose the best answer for this rule: A lane closed ahead sign warns of a work zone. What should you do?",
-    "options": [
-      "Merge into the correct lane when it is safe",
-      "Drive to the end of the closed lane before looking",
-      "Speed up and force your way in",
-      "Ignore the sign until you see workers"
-    ],
-    "correct": 0,
-    "explanation": "Merge safely when warned that a lane is closing rather than waiting until the last second.",
-    "sourceGroup": 71
-  },
-  {
-    "id": 213,
+    "id": 72,
     "exam": 3,
-    "category": "Defensive Driving",
-    "question": "New York permit review \u2014 A lane closed ahead sign warns of a work zone. What should you do; choose the correct answer below?",
-    "options": [
-      "Merge into the correct lane when it is safe",
-      "Drive to the end of the closed lane before looking",
-      "Speed up and force your way in",
-      "Ignore the sign until you see workers"
-    ],
-    "correct": 0,
-    "explanation": "Merge safely when warned that a lane is closing rather than waiting until the last second.",
-    "sourceGroup": 71
-  },
-  {
-    "id": 214,
-    "exam": 1,
     "category": "Defensive Driving",
     "question": "What are minimum speed signs designed to do?",
     "options": [
@@ -3211,37 +1081,7 @@ const questions = [
     "sourceGroup": 72
   },
   {
-    "id": 215,
-    "exam": 2,
-    "category": "Defensive Driving",
-    "question": "Choose the purpose of minimum speed signs?",
-    "options": [
-      "Show road conditions",
-      "Keep traffic flowing smoothly",
-      "Protect only pedestrians",
-      "Test future traffic signal needs"
-    ],
-    "correct": 1,
-    "explanation": "Minimum speed signs help maintain safe traffic flow by discouraging very slow travel.",
-    "sourceGroup": 72
-  },
-  {
-    "id": 216,
-    "exam": 3,
-    "category": "Defensive Driving",
-    "question": "What are minimum speed signs intended to do?",
-    "options": [
-      "Show road conditions",
-      "Keep traffic flowing smoothly",
-      "Protect only pedestrians",
-      "Test future traffic signal needs"
-    ],
-    "correct": 1,
-    "explanation": "Minimum speed signs help maintain safe traffic flow by discouraging very slow travel.",
-    "sourceGroup": 72
-  },
-  {
-    "id": 217,
+    "id": 73,
     "exam": 1,
     "category": "Defensive Driving",
     "question": "Driving in a state of rage can do what?",
@@ -3256,38 +1096,8 @@ const questions = [
     "sourceGroup": 73
   },
   {
-    "id": 218,
+    "id": 74,
     "exam": 2,
-    "category": "Defensive Driving",
-    "question": "Choose the best answer for this rule: Driving in a state of rage can do what?",
-    "options": [
-      "Affect your judgment, raise crash risk, and lead to license consequences",
-      "Improve alertness",
-      "Help you respond more quickly",
-      "Reduce the chance of a collision"
-    ],
-    "correct": 0,
-    "explanation": "Road rage harms judgment, increases crash risk, and can result in legal penalties.",
-    "sourceGroup": 73
-  },
-  {
-    "id": 219,
-    "exam": 3,
-    "category": "Defensive Driving",
-    "question": "New York permit review \u2014 Driving in a state of rage can do what; choose the correct answer below?",
-    "options": [
-      "Affect your judgment, raise crash risk, and lead to license consequences",
-      "Improve alertness",
-      "Help you respond more quickly",
-      "Reduce the chance of a collision"
-    ],
-    "correct": 0,
-    "explanation": "Road rage harms judgment, increases crash risk, and can result in legal penalties.",
-    "sourceGroup": 73
-  },
-  {
-    "id": 220,
-    "exam": 1,
     "category": "Defensive Driving",
     "question": "One rule of defensive driving is to do what with your eyes?",
     "options": [
@@ -3301,38 +1111,8 @@ const questions = [
     "sourceGroup": 74
   },
   {
-    "id": 221,
-    "exam": 2,
-    "category": "Defensive Driving",
-    "question": "Choose the best answer for this rule: One rule of defensive driving is to do what with your eyes?",
-    "options": [
-      "Focus only on the vehicle ahead",
-      "Stay alert and keep your eyes moving",
-      "Look straight ahead only",
-      "Check mirrors only when turning"
-    ],
-    "correct": 1,
-    "explanation": "Scanning ahead, to the sides, and in mirrors helps you spot problems early.",
-    "sourceGroup": 74
-  },
-  {
-    "id": 222,
+    "id": 75,
     "exam": 3,
-    "category": "Defensive Driving",
-    "question": "New York permit review \u2014 One rule of defensive driving is to do what with your eyes; choose the correct answer below?",
-    "options": [
-      "Focus only on the vehicle ahead",
-      "Stay alert and keep your eyes moving",
-      "Look straight ahead only",
-      "Check mirrors only when turning"
-    ],
-    "correct": 1,
-    "explanation": "Scanning ahead, to the sides, and in mirrors helps you spot problems early.",
-    "sourceGroup": 74
-  },
-  {
-    "id": 223,
-    "exam": 1,
     "category": "Defensive Driving",
     "question": "On long trips, what helps prevent drowsiness?",
     "options": [
@@ -3346,37 +1126,7 @@ const questions = [
     "sourceGroup": 75
   },
   {
-    "id": 224,
-    "exam": 2,
-    "category": "Defensive Driving",
-    "question": "Choose the best answer for this rule: On long trips, what helps prevent drowsiness?",
-    "options": [
-      "Driving faster",
-      "Turning the radio up",
-      "Stopping at regular intervals for rest",
-      "Opening a window instead of resting"
-    ],
-    "correct": 2,
-    "explanation": "Regular breaks are an effective way to reduce fatigue on long drives.",
-    "sourceGroup": 75
-  },
-  {
-    "id": 225,
-    "exam": 3,
-    "category": "Defensive Driving",
-    "question": "New York permit review \u2014 On long trips, what helps prevent drowsiness; choose the correct answer below?",
-    "options": [
-      "Driving faster",
-      "Turning the radio up",
-      "Stopping at regular intervals for rest",
-      "Opening a window instead of resting"
-    ],
-    "correct": 2,
-    "explanation": "Regular breaks are an effective way to reduce fatigue on long drives.",
-    "sourceGroup": 75
-  },
-  {
-    "id": 226,
+    "id": 76,
     "exam": 1,
     "category": "Defensive Driving",
     "question": "On a New York highway with no posted speed limit, what is the fastest legal speed?",
@@ -3391,38 +1141,8 @@ const questions = [
     "sourceGroup": 76
   },
   {
-    "id": 227,
+    "id": 77,
     "exam": 2,
-    "category": "Defensive Driving",
-    "question": "Choose the best answer for this rule: On a New York highway with no posted speed limit, what is the fastest legal speed?",
-    "options": [
-      "50 mph",
-      "55 mph",
-      "60 mph",
-      "65 mph"
-    ],
-    "correct": 1,
-    "explanation": "When no lower speed is posted, the general maximum speed is 55 mph.",
-    "sourceGroup": 76
-  },
-  {
-    "id": 228,
-    "exam": 3,
-    "category": "Defensive Driving",
-    "question": "New York permit review \u2014 On a New York highway with no posted speed limit, what is the fastest legal speed; choose the correct answer below?",
-    "options": [
-      "50 mph",
-      "55 mph",
-      "60 mph",
-      "65 mph"
-    ],
-    "correct": 1,
-    "explanation": "When no lower speed is posted, the general maximum speed is 55 mph.",
-    "sourceGroup": 76
-  },
-  {
-    "id": 229,
-    "exam": 1,
     "category": "Defensive Driving",
     "question": "What is true of work zones?",
     "options": [
@@ -3436,38 +1156,8 @@ const questions = [
     "sourceGroup": 77
   },
   {
-    "id": 230,
-    "exam": 2,
-    "category": "Defensive Driving",
-    "question": "Which statement about work zones is true?",
-    "options": [
-      "They are dangerous only at night",
-      "Rear-end collisions are the most common crash there",
-      "They are always stationary and easy to avoid",
-      "Speeding fines never change there"
-    ],
-    "correct": 1,
-    "explanation": "Rear-end crashes are common in work zones because traffic often slows or stops unexpectedly.",
-    "sourceGroup": 77
-  },
-  {
-    "id": 231,
+    "id": 78,
     "exam": 3,
-    "category": "Defensive Driving",
-    "question": "Choose the true statement about work zones?",
-    "options": [
-      "They are dangerous only at night",
-      "Rear-end collisions are the most common crash there",
-      "They are always stationary and easy to avoid",
-      "Speeding fines never change there"
-    ],
-    "correct": 1,
-    "explanation": "Rear-end crashes are common in work zones because traffic often slows or stops unexpectedly.",
-    "sourceGroup": 77
-  },
-  {
-    "id": 232,
-    "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "Drivers under the influence of alcohol are whose problem?",
     "options": [
@@ -3481,37 +1171,7 @@ const questions = [
     "sourceGroup": 78
   },
   {
-    "id": 233,
-    "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Choose the best answer for this rule: Drivers under the influence of alcohol are whose problem?",
-    "options": [
-      "Only the drinker's problem",
-      "Only a police enforcement problem",
-      "Every driver's problem",
-      "Not a major issue in New York"
-    ],
-    "correct": 2,
-    "explanation": "Impaired driving puts everyone on the road at risk.",
-    "sourceGroup": 78
-  },
-  {
-    "id": 234,
-    "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "New York permit review \u2014 Drivers under the influence of alcohol are whose problem; choose the correct answer below?",
-    "options": [
-      "Only the drinker's problem",
-      "Only a police enforcement problem",
-      "Every driver's problem",
-      "Not a major issue in New York"
-    ],
-    "correct": 2,
-    "explanation": "Impaired driving puts everyone on the road at risk.",
-    "sourceGroup": 78
-  },
-  {
-    "id": 235,
+    "id": 79,
     "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "What can happen when alcohol and another drug are combined in your blood?",
@@ -3526,38 +1186,8 @@ const questions = [
     "sourceGroup": 79
   },
   {
-    "id": 236,
+    "id": 80,
     "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Choose the correct result if when alcohol and another drug are combined in your blood?",
-    "options": [
-      "The effects of both may increase",
-      "The alcohol is canceled out",
-      "Driving ability is unchanged",
-      "The drug becomes harmless"
-    ],
-    "correct": 0,
-    "explanation": "Alcohol and other drugs can intensify each other's effects and make driving more dangerous.",
-    "sourceGroup": 79
-  },
-  {
-    "id": 237,
-    "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "Which outcome can happen if when alcohol and another drug are combined in your blood?",
-    "options": [
-      "The effects of both may increase",
-      "The alcohol is canceled out",
-      "Driving ability is unchanged",
-      "The drug becomes harmless"
-    ],
-    "correct": 0,
-    "explanation": "Alcohol and other drugs can intensify each other's effects and make driving more dangerous.",
-    "sourceGroup": 79
-  },
-  {
-    "id": 238,
-    "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "What effect can drinking alcohol while taking prescription or over-the-counter medicine have?",
     "options": [
@@ -3571,38 +1201,8 @@ const questions = [
     "sourceGroup": 80
   },
   {
-    "id": 239,
-    "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Choose the best answer for this rule: What effect can drinking alcohol while taking prescription or over-the-counter medicine have?",
-    "options": [
-      "It can multiply the effects of the alcohol",
-      "It always makes you more alert",
-      "It reduces the effect of the medicine only",
-      "It has no effect because they are different substances"
-    ],
-    "correct": 0,
-    "explanation": "Alcohol can interact with medicines and worsen impairment.",
-    "sourceGroup": 80
-  },
-  {
-    "id": 240,
+    "id": 81,
     "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "New York permit review \u2014 What effect can drinking alcohol while taking prescription or over-the-counter medicine have; choose the correct answer below?",
-    "options": [
-      "It can multiply the effects of the alcohol",
-      "It always makes you more alert",
-      "It reduces the effect of the medicine only",
-      "It has no effect because they are different substances"
-    ],
-    "correct": 0,
-    "explanation": "Alcohol can interact with medicines and worsen impairment.",
-    "sourceGroup": 80
-  },
-  {
-    "id": 241,
-    "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "Which factors influence the effects of alcohol on a person?",
     "options": [
@@ -3616,37 +1216,7 @@ const questions = [
     "sourceGroup": 81
   },
   {
-    "id": 242,
-    "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Select the true statement: which factors influence the effects of alcohol on a person?",
-    "options": [
-      "The amount of food in the stomach, body weight, and time between drinks",
-      "Only the type of alcohol consumed",
-      "Only how physically fit the person is",
-      "Only the weather"
-    ],
-    "correct": 0,
-    "explanation": "Food, body weight, and the time between drinks all affect BAC and impairment.",
-    "sourceGroup": 81
-  },
-  {
-    "id": 243,
-    "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "Identify the correct answer: which factors influence the effects of alcohol on a person?",
-    "options": [
-      "The amount of food in the stomach, body weight, and time between drinks",
-      "Only the type of alcohol consumed",
-      "Only how physically fit the person is",
-      "Only the weather"
-    ],
-    "correct": 0,
-    "explanation": "Food, body weight, and the time between drinks all affect BAC and impairment.",
-    "sourceGroup": 81
-  },
-  {
-    "id": 244,
+    "id": 82,
     "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "Blood alcohol content does not depend on which of the following?",
@@ -3661,38 +1231,8 @@ const questions = [
     "sourceGroup": 82
   },
   {
-    "id": 245,
+    "id": 83,
     "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Choose the factor that blood alcohol content does not depend on?",
-    "options": [
-      "Your body weight",
-      "How much you drink",
-      "How much time passes between drinks",
-      "How physically fit you are"
-    ],
-    "correct": 3,
-    "explanation": "Physical fitness does not lower BAC.",
-    "sourceGroup": 82
-  },
-  {
-    "id": 246,
-    "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "Which item does blood alcohol content not depend on?",
-    "options": [
-      "Your body weight",
-      "How much you drink",
-      "How much time passes between drinks",
-      "How physically fit you are"
-    ],
-    "correct": 3,
-    "explanation": "Physical fitness does not lower BAC.",
-    "sourceGroup": 82
-  },
-  {
-    "id": 247,
-    "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "What is the only effective way to reduce your BAC?",
     "options": [
@@ -3706,38 +1246,8 @@ const questions = [
     "sourceGroup": 83
   },
   {
-    "id": 248,
-    "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Choose the correct answer about the only effective way to reduce your BAC?",
-    "options": [
-      "Exercise",
-      "Drink coffee",
-      "Take a cold shower",
-      "Allow time for your body to remove the alcohol"
-    ],
-    "correct": 3,
-    "explanation": "Only time lowers BAC. Coffee, showers, and exercise do not make you sober.",
-    "sourceGroup": 83
-  },
-  {
-    "id": 249,
+    "id": 84,
     "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "Which statement correctly completes this: the only effective way to reduce your BAC?",
-    "options": [
-      "Exercise",
-      "Drink coffee",
-      "Take a cold shower",
-      "Allow time for your body to remove the alcohol"
-    ],
-    "correct": 3,
-    "explanation": "Only time lowers BAC. Coffee, showers, and exercise do not make you sober.",
-    "sourceGroup": 83
-  },
-  {
-    "id": 250,
-    "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "Which of these does not happen after drinking alcohol?",
     "options": [
@@ -3751,37 +1261,7 @@ const questions = [
     "sourceGroup": 84
   },
   {
-    "id": 251,
-    "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Select the true statement: which of these does not happen after drinking alcohol?",
-    "options": [
-      "Reaction time slows",
-      "Judgment of distance is distorted",
-      "You become calmer so you can concentrate better",
-      "You are less alert"
-    ],
-    "correct": 2,
-    "explanation": "Alcohol does not improve concentration. It impairs judgment and alertness.",
-    "sourceGroup": 84
-  },
-  {
-    "id": 252,
-    "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "Identify the correct answer: which of these does not happen after drinking alcohol?",
-    "options": [
-      "Reaction time slows",
-      "Judgment of distance is distorted",
-      "You become calmer so you can concentrate better",
-      "You are less alert"
-    ],
-    "correct": 2,
-    "explanation": "Alcohol does not improve concentration. It impairs judgment and alertness.",
-    "sourceGroup": 84
-  },
-  {
-    "id": 253,
+    "id": 85,
     "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "If you drink socially, what is the best way to help ensure safe driving?",
@@ -3796,38 +1276,8 @@ const questions = [
     "sourceGroup": 85
   },
   {
-    "id": 254,
+    "id": 86,
     "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Scenario: you drink socially, what is the best way to help ensure safe driving. What is the best action?",
-    "options": [
-      "Take a cold shower before driving",
-      "Ride home with a sober friend",
-      "Stop drinking 30 minutes before leaving",
-      "Drink coffee before driving"
-    ],
-    "correct": 1,
-    "explanation": "The safest choice is not to drive after drinking and instead ride with someone sober.",
-    "sourceGroup": 85
-  },
-  {
-    "id": 255,
-    "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "In this situation, if you drink socially, what is the best way to help ensure safe driving, what should you do?",
-    "options": [
-      "Take a cold shower before driving",
-      "Ride home with a sober friend",
-      "Stop drinking 30 minutes before leaving",
-      "Drink coffee before driving"
-    ],
-    "correct": 1,
-    "explanation": "The safest choice is not to drive after drinking and instead ride with someone sober.",
-    "sourceGroup": 85
-  },
-  {
-    "id": 256,
-    "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "What should a driver do before driving after taking a non-prescription drug?",
     "options": [
@@ -3841,38 +1291,8 @@ const questions = [
     "sourceGroup": 86
   },
   {
-    "id": 257,
-    "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Which action should a driver take before driving after taking a non-prescription drug?",
-    "options": [
-      "Read the label",
-      "Drive only in daylight",
-      "Drink coffee first",
-      "Assume it is safe because it was bought without a prescription"
-    ],
-    "correct": 0,
-    "explanation": "Many over-the-counter medicines can impair driving, so always check the label.",
-    "sourceGroup": 86
-  },
-  {
-    "id": 258,
+    "id": 87,
     "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "Choose the safest action a driver should take before driving after taking a non-prescription drug?",
-    "options": [
-      "Read the label",
-      "Drive only in daylight",
-      "Drink coffee first",
-      "Assume it is safe because it was bought without a prescription"
-    ],
-    "correct": 0,
-    "explanation": "Many over-the-counter medicines can impair driving, so always check the label.",
-    "sourceGroup": 86
-  },
-  {
-    "id": 259,
-    "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "What happens to your driver license if you refuse a chemical test after arrest?",
     "options": [
@@ -3886,37 +1306,7 @@ const questions = [
     "sourceGroup": 87
   },
   {
-    "id": 260,
-    "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Choose what happens to your driver license if you refuse a chemical test after arrest?",
-    "options": [
-      "Nothing happens unless you are convicted later",
-      "You cannot be arrested",
-      "Your license can be taken away",
-      "You automatically win the case"
-    ],
-    "correct": 2,
-    "explanation": "Under implied consent rules, refusing a chemical test can cause suspension or revocation.",
-    "sourceGroup": 87
-  },
-  {
-    "id": 261,
-    "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "What is the result for your driver license if you refuse a chemical test after arrest?",
-    "options": [
-      "Nothing happens unless you are convicted later",
-      "You cannot be arrested",
-      "Your license can be taken away",
-      "You automatically win the case"
-    ],
-    "correct": 2,
-    "explanation": "Under implied consent rules, refusing a chemical test can cause suspension or revocation.",
-    "sourceGroup": 87
-  },
-  {
-    "id": 262,
+    "id": 88,
     "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "Drinking alcohol and driving is what kind of traffic safety problem?",
@@ -3931,38 +1321,8 @@ const questions = [
     "sourceGroup": 88
   },
   {
-    "id": 263,
+    "id": 89,
     "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Choose the best answer for this rule: Drinking alcohol and driving is what kind of traffic safety problem?",
-    "options": [
-      "A minor problem",
-      "A serious problem",
-      "Safe if only a few drinks were consumed",
-      "Dangerous only to the drinking driver"
-    ],
-    "correct": 1,
-    "explanation": "Alcohol-impaired driving is a major and serious traffic safety problem.",
-    "sourceGroup": 88
-  },
-  {
-    "id": 264,
-    "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "New York permit review \u2014 Drinking alcohol and driving is what kind of traffic safety problem; choose the correct answer below?",
-    "options": [
-      "A minor problem",
-      "A serious problem",
-      "Safe if only a few drinks were consumed",
-      "Dangerous only to the drinking driver"
-    ],
-    "correct": 1,
-    "explanation": "Alcohol-impaired driving is a major and serious traffic safety problem.",
-    "sourceGroup": 88
-  },
-  {
-    "id": 265,
-    "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "What effect does coffee have on BAC after drinking alcohol?",
     "options": [
@@ -3976,38 +1336,8 @@ const questions = [
     "sourceGroup": 89
   },
   {
-    "id": 266,
-    "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Choose the correct effect of coffee have on BAC after drinking alcohol?",
-    "options": [
-      "It lowers BAC",
-      "It cancels the alcohol",
-      "It has no effect on BAC",
-      "It increases BAC"
-    ],
-    "correct": 2,
-    "explanation": "Coffee may make you feel more awake, but it does not reduce BAC.",
-    "sourceGroup": 89
-  },
-  {
-    "id": 267,
+    "id": 90,
     "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "Which effect is linked to coffee have on BAC after drinking alcohol?",
-    "options": [
-      "It lowers BAC",
-      "It cancels the alcohol",
-      "It has no effect on BAC",
-      "It increases BAC"
-    ],
-    "correct": 2,
-    "explanation": "Coffee may make you feel more awake, but it does not reduce BAC.",
-    "sourceGroup": 89
-  },
-  {
-    "id": 268,
-    "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "Which driving-related abilities does alcohol affect?",
     "options": [
@@ -4021,37 +1351,7 @@ const questions = [
     "sourceGroup": 90
   },
   {
-    "id": 269,
-    "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Select the true statement: which driving-related abilities does alcohol affect?",
-    "options": [
-      "Only reaction time",
-      "Only judgment of distances",
-      "Only recovery from headlight glare",
-      "All of these abilities"
-    ],
-    "correct": 3,
-    "explanation": "Alcohol affects glare recovery, reaction time, and distance judgment.",
-    "sourceGroup": 90
-  },
-  {
-    "id": 270,
-    "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "Identify the correct answer: which driving-related abilities does alcohol affect?",
-    "options": [
-      "Only reaction time",
-      "Only judgment of distances",
-      "Only recovery from headlight glare",
-      "All of these abilities"
-    ],
-    "correct": 3,
-    "explanation": "Alcohol affects glare recovery, reaction time, and distance judgment.",
-    "sourceGroup": 90
-  },
-  {
-    "id": 271,
+    "id": 91,
     "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "In New York, what BAC is evidence of intoxication?",
@@ -4066,38 +1366,8 @@ const questions = [
     "sourceGroup": 91
   },
   {
-    "id": 272,
+    "id": 92,
     "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Choose the best answer for this rule: In New York, what BAC is evidence of intoxication?",
-    "options": [
-      "0.03%",
-      "0.05%",
-      "0.08%",
-      "0.10%"
-    ],
-    "correct": 2,
-    "explanation": "A BAC of 0.08% or higher is evidence of intoxication for DWI.",
-    "sourceGroup": 91
-  },
-  {
-    "id": 273,
-    "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "New York permit review \u2014 In New York, what BAC is evidence of intoxication; choose the correct answer below?",
-    "options": [
-      "0.03%",
-      "0.05%",
-      "0.08%",
-      "0.10%"
-    ],
-    "correct": 2,
-    "explanation": "A BAC of 0.08% or higher is evidence of intoxication for DWI.",
-    "sourceGroup": 91
-  },
-  {
-    "id": 274,
-    "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "Which kinds of drugs other than alcohol can affect driving ability?",
     "options": [
@@ -4111,38 +1381,8 @@ const questions = [
     "sourceGroup": 92
   },
   {
-    "id": 275,
-    "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Select the true statement: which kinds of drugs other than alcohol can affect driving ability?",
-    "options": [
-      "Only illegal drugs",
-      "Allergy medicine, marijuana, and cold remedies",
-      "Only prescription sleeping pills",
-      "Only pain medicine"
-    ],
-    "correct": 1,
-    "explanation": "Many legal and illegal drugs can impair driving, including cold remedies, allergy medicine, and marijuana.",
-    "sourceGroup": 92
-  },
-  {
-    "id": 276,
+    "id": 93,
     "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "Identify the correct answer: which kinds of drugs other than alcohol can affect driving ability?",
-    "options": [
-      "Only illegal drugs",
-      "Allergy medicine, marijuana, and cold remedies",
-      "Only prescription sleeping pills",
-      "Only pain medicine"
-    ],
-    "correct": 1,
-    "explanation": "Many legal and illegal drugs can impair driving, including cold remedies, allergy medicine, and marijuana.",
-    "sourceGroup": 92
-  },
-  {
-    "id": 277,
-    "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "Which statement about BAC is true?",
     "options": [
@@ -4156,37 +1396,7 @@ const questions = [
     "sourceGroup": 93
   },
   {
-    "id": 278,
-    "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Select the true statement: which statement about BAC is true?",
-    "options": [
-      "Physical fitness lowers BAC quickly",
-      "A breath test is one way to measure BAC",
-      "Coffee or a cold shower lowers BAC",
-      "A chemical test is always required for a conviction"
-    ],
-    "correct": 1,
-    "explanation": "Breath, blood, urine, or saliva tests can measure BAC.",
-    "sourceGroup": 93
-  },
-  {
-    "id": 279,
-    "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "Identify the correct answer: which statement about BAC is true?",
-    "options": [
-      "Physical fitness lowers BAC quickly",
-      "A breath test is one way to measure BAC",
-      "Coffee or a cold shower lowers BAC",
-      "A chemical test is always required for a conviction"
-    ],
-    "correct": 1,
-    "explanation": "Breath, blood, urine, or saliva tests can measure BAC.",
-    "sourceGroup": 93
-  },
-  {
-    "id": 280,
+    "id": 94,
     "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "On average, how long does it take the human body to dispose of the alcohol in about 12 ounces of beer?",
@@ -4201,38 +1411,8 @@ const questions = [
     "sourceGroup": 94
   },
   {
-    "id": 281,
+    "id": 95,
     "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Choose the best answer for this rule: On average, how long does it take the human body to dispose of the alcohol in about 12 ounces of beer?",
-    "options": [
-      "About one hour",
-      "About five minutes",
-      "About five hours",
-      "About one day"
-    ],
-    "correct": 0,
-    "explanation": "On average, the body removes about the alcohol in one 12-ounce beer in about an hour.",
-    "sourceGroup": 94
-  },
-  {
-    "id": 282,
-    "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "New York permit review \u2014 On average, how long does it take the human body to dispose of the alcohol in about 12 ounces of beer; choose the correct answer below?",
-    "options": [
-      "About one hour",
-      "About five minutes",
-      "About five hours",
-      "About one day"
-    ],
-    "correct": 0,
-    "explanation": "On average, the body removes about the alcohol in one 12-ounce beer in about an hour.",
-    "sourceGroup": 94
-  },
-  {
-    "id": 283,
-    "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "A chemical test is used to measure what?",
     "options": [
@@ -4246,38 +1426,8 @@ const questions = [
     "sourceGroup": 95
   },
   {
-    "id": 284,
-    "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Choose the best answer for this rule: A chemical test is used to measure what?",
-    "options": [
-      "Reaction time",
-      "Driving skill",
-      "Blood alcohol content",
-      "Eyesight"
-    ],
-    "correct": 2,
-    "explanation": "Chemical tests measure the amount of alcohol in your body, usually reported as BAC.",
-    "sourceGroup": 95
-  },
-  {
-    "id": 285,
+    "id": 96,
     "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "New York permit review \u2014 A chemical test is used to measure what; choose the correct answer below?",
-    "options": [
-      "Reaction time",
-      "Driving skill",
-      "Blood alcohol content",
-      "Eyesight"
-    ],
-    "correct": 2,
-    "explanation": "Chemical tests measure the amount of alcohol in your body, usually reported as BAC.",
-    "sourceGroup": 95
-  },
-  {
-    "id": 286,
-    "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "What can result from driving under the influence of alcohol or other drugs?",
     "options": [
@@ -4291,37 +1441,7 @@ const questions = [
     "sourceGroup": 96
   },
   {
-    "id": 287,
-    "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Choose the correct result of driving under the influence of alcohol or other drugs?",
-    "options": [
-      "Possible jail time, fines, and driver license revocation",
-      "Only a warning on the first offense",
-      "Only higher insurance rates",
-      "No consequences if no crash occurs"
-    ],
-    "correct": 0,
-    "explanation": "Alcohol- and drug-related driving offenses can lead to fines, jail, and loss of license.",
-    "sourceGroup": 96
-  },
-  {
-    "id": 288,
-    "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "Which consequence can follow from driving under the influence of alcohol or other drugs?",
-    "options": [
-      "Possible jail time, fines, and driver license revocation",
-      "Only a warning on the first offense",
-      "Only higher insurance rates",
-      "No consequences if no crash occurs"
-    ],
-    "correct": 0,
-    "explanation": "Alcohol- and drug-related driving offenses can lead to fines, jail, and loss of license.",
-    "sourceGroup": 96
-  },
-  {
-    "id": 289,
+    "id": 97,
     "exam": 1,
     "category": "Alcohol and Drugs",
     "question": "What does alcohol do to driving skills and judgment?",
@@ -4336,38 +1456,8 @@ const questions = [
     "sourceGroup": 97
   },
   {
-    "id": 290,
+    "id": 98,
     "exam": 2,
-    "category": "Alcohol and Drugs",
-    "question": "Choose the best answer for this rule: What does alcohol do to driving skills and judgment?",
-    "options": [
-      "It helps both",
-      "It harms both",
-      "It harms judgment only",
-      "It harms driving skill only"
-    ],
-    "correct": 1,
-    "explanation": "Alcohol impairs both the physical and mental abilities needed for safe driving.",
-    "sourceGroup": 97
-  },
-  {
-    "id": 291,
-    "exam": 3,
-    "category": "Alcohol and Drugs",
-    "question": "New York permit review \u2014 What does alcohol do to driving skills and judgment; choose the correct answer below?",
-    "options": [
-      "It helps both",
-      "It harms both",
-      "It harms judgment only",
-      "It harms driving skill only"
-    ],
-    "correct": 1,
-    "explanation": "Alcohol impairs both the physical and mental abilities needed for safe driving.",
-    "sourceGroup": 97
-  },
-  {
-    "id": 292,
-    "exam": 1,
     "category": "Special Driving Conditions",
     "question": "You are entering a highway with a very short entrance lane. What is the safest way to enter traffic?",
     "options": [
@@ -4381,38 +1471,8 @@ const questions = [
     "sourceGroup": 98
   },
   {
-    "id": 293,
-    "exam": 2,
-    "category": "Special Driving Conditions",
-    "question": "Scenario: you are entering a highway with a very short entrance lane. What is the safest way to enter traffic. What is the best action?",
-    "options": [
-      "Use as much of the ramp as possible to reach cruising speed",
-      "Stop at the end of the ramp and wait for a gap",
-      "Drive onto the shoulder until you can merge",
-      "Use the left lane of the highway to gain speed"
-    ],
-    "correct": 0,
-    "explanation": "Use the acceleration lane or ramp to get close to highway speed before merging.",
-    "sourceGroup": 98
-  },
-  {
-    "id": 294,
+    "id": 99,
     "exam": 3,
-    "category": "Special Driving Conditions",
-    "question": "If you are entering a highway with a very short entrance lane. What is the safest way to enter traffic, what should you do next?",
-    "options": [
-      "Use as much of the ramp as possible to reach cruising speed",
-      "Stop at the end of the ramp and wait for a gap",
-      "Drive onto the shoulder until you can merge",
-      "Use the left lane of the highway to gain speed"
-    ],
-    "correct": 0,
-    "explanation": "Use the acceleration lane or ramp to get close to highway speed before merging.",
-    "sourceGroup": 98
-  },
-  {
-    "id": 295,
-    "exam": 1,
     "category": "Special Driving Conditions",
     "question": "When attempting to stop on a slippery road, what is the best action?",
     "options": [
@@ -4426,37 +1486,7 @@ const questions = [
     "sourceGroup": 99
   },
   {
-    "id": 296,
-    "exam": 2,
-    "category": "Special Driving Conditions",
-    "question": "Choose the best answer for this rule: When attempting to stop on a slippery road, what is the best action?",
-    "options": [
-      "Apply the brakes quickly and firmly",
-      "Shift into neutral and coast",
-      "Apply the brakes in slow, steady strokes",
-      "Turn the wheel sharply to the shoulder"
-    ],
-    "correct": 2,
-    "explanation": "Gentle, steady braking helps maintain traction on slippery surfaces.",
-    "sourceGroup": 99
-  },
-  {
-    "id": 297,
-    "exam": 3,
-    "category": "Special Driving Conditions",
-    "question": "New York permit review \u2014 When attempting to stop on a slippery road, what is the best action; choose the correct answer below?",
-    "options": [
-      "Apply the brakes quickly and firmly",
-      "Shift into neutral and coast",
-      "Apply the brakes in slow, steady strokes",
-      "Turn the wheel sharply to the shoulder"
-    ],
-    "correct": 2,
-    "explanation": "Gentle, steady braking helps maintain traction on slippery surfaces.",
-    "sourceGroup": 99
-  },
-  {
-    "id": 298,
+    "id": 100,
     "exam": 1,
     "category": "Special Driving Conditions",
     "question": "You have just left an expressway and are beginning to drive on an ordinary highway. What should you do?",
@@ -4471,38 +1501,8 @@ const questions = [
     "sourceGroup": 100
   },
   {
-    "id": 299,
+    "id": 101,
     "exam": 2,
-    "category": "Special Driving Conditions",
-    "question": "Scenario: you have just left an expressway and are beginning to drive on an ordinary highway. What should you do. What is the best action?",
-    "options": [
-      "Check your speedometer to keep at the lower speed limit",
-      "Stay at expressway speed until traffic forces you to slow",
-      "Check tire pressure immediately",
-      "Double your following distance regardless of traffic"
-    ],
-    "correct": 0,
-    "explanation": "Drivers often continue too fast after leaving an expressway, so check your speed.",
-    "sourceGroup": 100
-  },
-  {
-    "id": 300,
-    "exam": 3,
-    "category": "Special Driving Conditions",
-    "question": "If you have just left an expressway and are beginning to drive on an ordinary highway. What should you do, what should you do next?",
-    "options": [
-      "Check your speedometer to keep at the lower speed limit",
-      "Stay at expressway speed until traffic forces you to slow",
-      "Check tire pressure immediately",
-      "Double your following distance regardless of traffic"
-    ],
-    "correct": 0,
-    "explanation": "Drivers often continue too fast after leaving an expressway, so check your speed.",
-    "sourceGroup": 100
-  },
-  {
-    "id": 301,
-    "exam": 1,
     "category": "Special Driving Conditions",
     "question": "What should you do at a railroad crossing that has no signals or gates?",
     "options": [
@@ -4516,38 +1516,8 @@ const questions = [
     "sourceGroup": 101
   },
   {
-    "id": 302,
-    "exam": 2,
-    "category": "Special Driving Conditions",
-    "question": "In this situation, what should you do at a railroad crossing that has no signals or gates?",
-    "options": [
-      "Always stop completely",
-      "Slow down and be prepared to stop",
-      "Increase speed to cross quickly",
-      "Assume no train is coming"
-    ],
-    "correct": 1,
-    "explanation": "You should slow down, look, listen, and be ready to stop for a train.",
-    "sourceGroup": 101
-  },
-  {
-    "id": 303,
+    "id": 102,
     "exam": 3,
-    "category": "Special Driving Conditions",
-    "question": "Choose the safest action at a railroad crossing that has no signals or gates?",
-    "options": [
-      "Always stop completely",
-      "Slow down and be prepared to stop",
-      "Increase speed to cross quickly",
-      "Assume no train is coming"
-    ],
-    "correct": 1,
-    "explanation": "You should slow down, look, listen, and be ready to stop for a train.",
-    "sourceGroup": 101
-  },
-  {
-    "id": 304,
-    "exam": 1,
     "category": "Special Driving Conditions",
     "question": "If traffic prevents you from crossing all the way over railroad tracks, when may you proceed?",
     "options": [
@@ -4561,37 +1531,7 @@ const questions = [
     "sourceGroup": 102
   },
   {
-    "id": 305,
-    "exam": 2,
-    "category": "Special Driving Conditions",
-    "question": "Scenario: traffic prevents you from crossing all the way over railroad tracks, when may you proceed. What is the best action?",
-    "options": [
-      "When at least half of your vehicle can clear the tracks",
-      "When no train is visible",
-      "Only when there is room for your vehicle on the other side",
-      "When the driver behind you honks"
-    ],
-    "correct": 2,
-    "explanation": "Never enter a railroad crossing unless you can clear the tracks completely.",
-    "sourceGroup": 102
-  },
-  {
-    "id": 306,
-    "exam": 3,
-    "category": "Special Driving Conditions",
-    "question": "In this situation, if traffic prevents you from crossing all the way over railroad tracks, when may you proceed, what should you do?",
-    "options": [
-      "When at least half of your vehicle can clear the tracks",
-      "When no train is visible",
-      "Only when there is room for your vehicle on the other side",
-      "When the driver behind you honks"
-    ],
-    "correct": 2,
-    "explanation": "Never enter a railroad crossing unless you can clear the tracks completely.",
-    "sourceGroup": 102
-  },
-  {
-    "id": 307,
+    "id": 103,
     "exam": 1,
     "category": "Special Driving Conditions",
     "question": "When driving in heavy fog during daylight, which headlights should you use?",
@@ -4606,38 +1546,8 @@ const questions = [
     "sourceGroup": 103
   },
   {
-    "id": 308,
+    "id": 104,
     "exam": 2,
-    "category": "Special Driving Conditions",
-    "question": "Choose the best answer for this rule: When driving in heavy fog during daylight, which headlights should you use?",
-    "options": [
-      "No headlights",
-      "Parking lights only",
-      "High beams",
-      "Low beams"
-    ],
-    "correct": 3,
-    "explanation": "Low beams reduce glare reflected by fog better than high beams.",
-    "sourceGroup": 103
-  },
-  {
-    "id": 309,
-    "exam": 3,
-    "category": "Special Driving Conditions",
-    "question": "New York permit review \u2014 When driving in heavy fog during daylight, which headlights should you use; choose the correct answer below?",
-    "options": [
-      "No headlights",
-      "Parking lights only",
-      "High beams",
-      "Low beams"
-    ],
-    "correct": 3,
-    "explanation": "Low beams reduce glare reflected by fog better than high beams.",
-    "sourceGroup": 103
-  },
-  {
-    "id": 310,
-    "exam": 1,
     "category": "Special Driving Conditions",
     "question": "Your car begins to skid on a slippery road. Which way should you steer?",
     "options": [
@@ -4651,38 +1561,8 @@ const questions = [
     "sourceGroup": 104
   },
   {
-    "id": 311,
-    "exam": 2,
-    "category": "Special Driving Conditions",
-    "question": "Choose the best answer for this rule: Your car begins to skid on a slippery road. Which way should you steer?",
-    "options": [
-      "Toward the side of the road",
-      "In the direction you want the front wheels to go",
-      "The opposite way from the skid",
-      "Back and forth quickly"
-    ],
-    "correct": 1,
-    "explanation": "Steering in the direction you want the front wheels to travel helps regain control.",
-    "sourceGroup": 104
-  },
-  {
-    "id": 312,
+    "id": 105,
     "exam": 3,
-    "category": "Special Driving Conditions",
-    "question": "New York permit review \u2014 Your car begins to skid on a slippery road. Which way should you steer; choose the correct answer below?",
-    "options": [
-      "Toward the side of the road",
-      "In the direction you want the front wheels to go",
-      "The opposite way from the skid",
-      "Back and forth quickly"
-    ],
-    "correct": 1,
-    "explanation": "Steering in the direction you want the front wheels to travel helps regain control.",
-    "sourceGroup": 104
-  },
-  {
-    "id": 313,
-    "exam": 1,
     "category": "Special Driving Conditions",
     "question": "Why is expressway driving different from driving on an ordinary street?",
     "options": [
@@ -4696,37 +1576,7 @@ const questions = [
     "sourceGroup": 105
   },
   {
-    "id": 314,
-    "exam": 2,
-    "category": "Special Driving Conditions",
-    "question": "Choose the best reason: is expressway driving different from driving on an ordinary street?",
-    "options": [
-      "Trucks always travel slower there",
-      "You must think faster and handle your vehicle more effectively",
-      "There are no blind spots on expressways",
-      "There is less need to plan ahead"
-    ],
-    "correct": 1,
-    "explanation": "Higher speeds leave less time to react, so expressway driving requires quicker judgment and control.",
-    "sourceGroup": 105
-  },
-  {
-    "id": 315,
-    "exam": 3,
-    "category": "Special Driving Conditions",
-    "question": "What is the main reason is expressway driving different from driving on an ordinary street?",
-    "options": [
-      "Trucks always travel slower there",
-      "You must think faster and handle your vehicle more effectively",
-      "There are no blind spots on expressways",
-      "There is less need to plan ahead"
-    ],
-    "correct": 1,
-    "explanation": "Higher speeds leave less time to react, so expressway driving requires quicker judgment and control.",
-    "sourceGroup": 105
-  },
-  {
-    "id": 316,
+    "id": 106,
     "exam": 1,
     "category": "Special Driving Conditions",
     "question": "Why do expressways have acceleration lanes?",
@@ -4741,38 +1591,8 @@ const questions = [
     "sourceGroup": 106
   },
   {
-    "id": 317,
+    "id": 107,
     "exam": 2,
-    "category": "Special Driving Conditions",
-    "question": "Choose the best reason: do expressways have acceleration lanes?",
-    "options": [
-      "To test your brakes",
-      "To stop and wait for an opening",
-      "To reach proper speed before blending with traffic",
-      "To pass vehicles on the right"
-    ],
-    "correct": 2,
-    "explanation": "Acceleration lanes let drivers speed up and merge more safely.",
-    "sourceGroup": 106
-  },
-  {
-    "id": 318,
-    "exam": 3,
-    "category": "Special Driving Conditions",
-    "question": "What is the main reason do expressways have acceleration lanes?",
-    "options": [
-      "To test your brakes",
-      "To stop and wait for an opening",
-      "To reach proper speed before blending with traffic",
-      "To pass vehicles on the right"
-    ],
-    "correct": 2,
-    "explanation": "Acceleration lanes let drivers speed up and merge more safely.",
-    "sourceGroup": 106
-  },
-  {
-    "id": 319,
-    "exam": 1,
     "category": "Special Driving Conditions",
     "question": "If a tire blows out while you are driving, what should you do first?",
     "options": [
@@ -4786,38 +1606,8 @@ const questions = [
     "sourceGroup": 107
   },
   {
-    "id": 320,
-    "exam": 2,
-    "category": "Special Driving Conditions",
-    "question": "Scenario: a tire blows out while you are driving, what should you do first. What is the best action?",
-    "options": [
-      "Brake hard immediately",
-      "Hold the steering wheel firmly and ease off the gas",
-      "Shift into neutral and stop in your lane",
-      "Turn sharply toward the shoulder"
-    ],
-    "correct": 1,
-    "explanation": "A blowout should be handled by maintaining control and letting the vehicle slow gradually.",
-    "sourceGroup": 107
-  },
-  {
-    "id": 321,
+    "id": 108,
     "exam": 3,
-    "category": "Special Driving Conditions",
-    "question": "In this situation, if a tire blows out while you are driving, what should you do first, what should you do?",
-    "options": [
-      "Brake hard immediately",
-      "Hold the steering wheel firmly and ease off the gas",
-      "Shift into neutral and stop in your lane",
-      "Turn sharply toward the shoulder"
-    ],
-    "correct": 1,
-    "explanation": "A blowout should be handled by maintaining control and letting the vehicle slow gradually.",
-    "sourceGroup": 107
-  },
-  {
-    "id": 322,
-    "exam": 1,
     "category": "Special Driving Conditions",
     "question": "May you ever drive around or under a railroad crossing gate that is being lowered or raised?",
     "options": [
@@ -4831,37 +1621,7 @@ const questions = [
     "sourceGroup": 108
   },
   {
-    "id": 323,
-    "exam": 2,
-    "category": "Special Driving Conditions",
-    "question": "Choose the best answer for this rule: May you ever drive around or under a railroad crossing gate that is being lowered or raised?",
-    "options": [
-      "Yes, if no train is close",
-      "Yes, if the gate is high enough",
-      "Only if traffic is heavy",
-      "No, under no circumstances"
-    ],
-    "correct": 3,
-    "explanation": "Driving around or under crossing gates is never allowed.",
-    "sourceGroup": 108
-  },
-  {
-    "id": 324,
-    "exam": 3,
-    "category": "Special Driving Conditions",
-    "question": "New York permit review \u2014 May you ever drive around or under a railroad crossing gate that is being lowered or raised; choose the correct answer below?",
-    "options": [
-      "Yes, if no train is close",
-      "Yes, if the gate is high enough",
-      "Only if traffic is heavy",
-      "No, under no circumstances"
-    ],
-    "correct": 3,
-    "explanation": "Driving around or under crossing gates is never allowed.",
-    "sourceGroup": 108
-  },
-  {
-    "id": 325,
+    "id": 109,
     "exam": 1,
     "category": "Special Driving Conditions",
     "question": "If your brake pedal suddenly sinks to the floor, what should you try first?",
@@ -4876,38 +1636,8 @@ const questions = [
     "sourceGroup": 109
   },
   {
-    "id": 326,
+    "id": 110,
     "exam": 2,
-    "category": "Special Driving Conditions",
-    "question": "Scenario: your brake pedal suddenly sinks to the floor, what should you try first. What is the best action?",
-    "options": [
-      "Pump the pedal to build pressure",
-      "Turn off the engine",
-      "Hook your toe under the pedal",
-      "Use the parking brake hard right away"
-    ],
-    "correct": 0,
-    "explanation": "Pumping the brake pedal may restore enough pressure to slow or stop the vehicle.",
-    "sourceGroup": 109
-  },
-  {
-    "id": 327,
-    "exam": 3,
-    "category": "Special Driving Conditions",
-    "question": "In this situation, if your brake pedal suddenly sinks to the floor, what should you try first, what should you do?",
-    "options": [
-      "Pump the pedal to build pressure",
-      "Turn off the engine",
-      "Hook your toe under the pedal",
-      "Use the parking brake hard right away"
-    ],
-    "correct": 0,
-    "explanation": "Pumping the brake pedal may restore enough pressure to slow or stop the vehicle.",
-    "sourceGroup": 109
-  },
-  {
-    "id": 328,
-    "exam": 1,
     "category": "Special Driving Conditions",
     "question": "Your right wheels run onto a soft shoulder. What is the best way to get back on the highway?",
     "options": [
@@ -4921,38 +1651,8 @@ const questions = [
     "sourceGroup": 110
   },
   {
-    "id": 329,
-    "exam": 2,
-    "category": "Special Driving Conditions",
-    "question": "Choose the best answer for this rule: Your right wheels run onto a soft shoulder. What is the best way to get back on the highway?",
-    "options": [
-      "Brake hard and steer sharply left",
-      "Ease off the gas and brake gently",
-      "Turn left hard, then right hard",
-      "Stop completely on the shoulder first"
-    ],
-    "correct": 1,
-    "explanation": "Slow down gently and return to the pavement carefully to avoid a skid.",
-    "sourceGroup": 110
-  },
-  {
-    "id": 330,
+    "id": 111,
     "exam": 3,
-    "category": "Special Driving Conditions",
-    "question": "New York permit review \u2014 Your right wheels run onto a soft shoulder. What is the best way to get back on the highway; choose the correct answer below?",
-    "options": [
-      "Brake hard and steer sharply left",
-      "Ease off the gas and brake gently",
-      "Turn left hard, then right hard",
-      "Stop completely on the shoulder first"
-    ],
-    "correct": 1,
-    "explanation": "Slow down gently and return to the pavement carefully to avoid a skid.",
-    "sourceGroup": 110
-  },
-  {
-    "id": 331,
-    "exam": 1,
     "category": "Sharing the Road",
     "question": "On a roadway, where must a bicyclist generally ride?",
     "options": [
@@ -4966,37 +1666,7 @@ const questions = [
     "sourceGroup": 111
   },
   {
-    "id": 332,
-    "exam": 2,
-    "category": "Sharing the Road",
-    "question": "Choose the best answer for this rule: On a roadway, where must a bicyclist generally ride?",
-    "options": [
-      "On the right side of the road",
-      "Facing traffic on the left side",
-      "On either side of the road",
-      "Where there is the least traffic"
-    ],
-    "correct": 0,
-    "explanation": "Bicyclists generally ride on the right side and follow the same traffic direction as motor vehicles.",
-    "sourceGroup": 111
-  },
-  {
-    "id": 333,
-    "exam": 3,
-    "category": "Sharing the Road",
-    "question": "New York permit review \u2014 On a roadway, where must a bicyclist generally ride; choose the correct answer below?",
-    "options": [
-      "On the right side of the road",
-      "Facing traffic on the left side",
-      "On either side of the road",
-      "Where there is the least traffic"
-    ],
-    "correct": 0,
-    "explanation": "Bicyclists generally ride on the right side and follow the same traffic direction as motor vehicles.",
-    "sourceGroup": 111
-  },
-  {
-    "id": 334,
+    "id": 112,
     "exam": 1,
     "category": "Sharing the Road",
     "question": "If there are no sidewalks, on which side of the road should a pedestrian walk?",
@@ -5011,38 +1681,8 @@ const questions = [
     "sourceGroup": 112
   },
   {
-    "id": 335,
+    "id": 113,
     "exam": 2,
-    "category": "Sharing the Road",
-    "question": "Scenario: there are no sidewalks, on which side of the road should a pedestrian walk. What is the best action?",
-    "options": [
-      "The same side as traffic",
-      "The side facing oncoming traffic",
-      "The side with lighter traffic",
-      "Either side"
-    ],
-    "correct": 1,
-    "explanation": "Pedestrians should walk facing traffic when no sidewalk is available.",
-    "sourceGroup": 112
-  },
-  {
-    "id": 336,
-    "exam": 3,
-    "category": "Sharing the Road",
-    "question": "In this situation, if there are no sidewalks, on which side of the road should a pedestrian walk, what should you do?",
-    "options": [
-      "The same side as traffic",
-      "The side facing oncoming traffic",
-      "The side with lighter traffic",
-      "Either side"
-    ],
-    "correct": 1,
-    "explanation": "Pedestrians should walk facing traffic when no sidewalk is available.",
-    "sourceGroup": 112
-  },
-  {
-    "id": 337,
-    "exam": 1,
     "category": "Sharing the Road",
     "question": "What should a motorist do when approaching a bicyclist?",
     "options": [
@@ -5056,38 +1696,8 @@ const questions = [
     "sourceGroup": 113
   },
   {
-    "id": 338,
-    "exam": 2,
-    "category": "Sharing the Road",
-    "question": "Choose the best answer for this rule: What should a motorist do when approaching a bicyclist?",
-    "options": [
-      "Proceed as usual",
-      "Pass as quickly as possible",
-      "Exercise extreme caution",
-      "Swerve into the opposite lane immediately"
-    ],
-    "correct": 2,
-    "explanation": "Drivers should give bicyclists extra space and use great care.",
-    "sourceGroup": 113
-  },
-  {
-    "id": 339,
+    "id": 114,
     "exam": 3,
-    "category": "Sharing the Road",
-    "question": "New York permit review \u2014 What should a motorist do when approaching a bicyclist; choose the correct answer below?",
-    "options": [
-      "Proceed as usual",
-      "Pass as quickly as possible",
-      "Exercise extreme caution",
-      "Swerve into the opposite lane immediately"
-    ],
-    "correct": 2,
-    "explanation": "Drivers should give bicyclists extra space and use great care.",
-    "sourceGroup": 113
-  },
-  {
-    "id": 340,
-    "exam": 1,
     "category": "Sharing the Road",
     "question": "What does a slow-moving vehicle emblem look like?",
     "options": [
@@ -5101,37 +1711,7 @@ const questions = [
     "sourceGroup": 114
   },
   {
-    "id": 341,
-    "exam": 2,
-    "category": "Sharing the Road",
-    "question": "Which description matches how a slow-moving vehicle emblem looks?",
-    "options": [
-      "A square red sign",
-      "A round green sign",
-      "A triangular orange sign",
-      "A yellow diamond sign"
-    ],
-    "correct": 2,
-    "explanation": "The slow-moving vehicle emblem is a fluorescent orange triangle.",
-    "sourceGroup": 114
-  },
-  {
-    "id": 342,
-    "exam": 3,
-    "category": "Sharing the Road",
-    "question": "Choose the correct appearance of a slow-moving vehicle emblem?",
-    "options": [
-      "A square red sign",
-      "A round green sign",
-      "A triangular orange sign",
-      "A yellow diamond sign"
-    ],
-    "correct": 2,
-    "explanation": "The slow-moving vehicle emblem is a fluorescent orange triangle.",
-    "sourceGroup": 114
-  },
-  {
-    "id": 343,
+    "id": 115,
     "exam": 1,
     "category": "Sharing the Road",
     "question": "How does a bicyclist differ from a motorist under New York rules?",
@@ -5146,38 +1726,8 @@ const questions = [
     "sourceGroup": 115
   },
   {
-    "id": 344,
+    "id": 116,
     "exam": 2,
-    "category": "Sharing the Road",
-    "question": "In what way does a bicyclist differ from a motorist under New York rules?",
-    "options": [
-      "A bicyclist does not need to obey traffic laws",
-      "A bicyclist does not have to signal turns",
-      "A bicyclist is not required to insure the bicycle",
-      "A bicyclist never has to report crashes"
-    ],
-    "correct": 2,
-    "explanation": "Bicyclists must follow traffic laws, but bicycle insurance is not required like motor vehicle insurance.",
-    "sourceGroup": 115
-  },
-  {
-    "id": 345,
-    "exam": 3,
-    "category": "Sharing the Road",
-    "question": "Choose the correct difference between a bicyclist and a motorist under New York rules?",
-    "options": [
-      "A bicyclist does not need to obey traffic laws",
-      "A bicyclist does not have to signal turns",
-      "A bicyclist is not required to insure the bicycle",
-      "A bicyclist never has to report crashes"
-    ],
-    "correct": 2,
-    "explanation": "Bicyclists must follow traffic laws, but bicycle insurance is not required like motor vehicle insurance.",
-    "sourceGroup": 115
-  },
-  {
-    "id": 346,
-    "exam": 1,
     "category": "Sharing the Road",
     "question": "When does a blind pedestrian have the legal right-of-way while crossing the street?",
     "options": [
@@ -5191,38 +1741,8 @@ const questions = [
     "sourceGroup": 116
   },
   {
-    "id": 347,
-    "exam": 2,
-    "category": "Sharing the Road",
-    "question": "Choose the best answer for this rule: When does a blind pedestrian have the legal right-of-way while crossing the street?",
-    "options": [
-      "Only when wearing dark glasses",
-      "Only when helped by another person",
-      "When using a guide dog or a white or metallic cane",
-      "Only at a traffic signal"
-    ],
-    "correct": 2,
-    "explanation": "Blind pedestrians using a guide dog or white/metallic cane must always be given the right-of-way.",
-    "sourceGroup": 116
-  },
-  {
-    "id": 348,
+    "id": 117,
     "exam": 3,
-    "category": "Sharing the Road",
-    "question": "New York permit review \u2014 When does a blind pedestrian have the legal right-of-way while crossing the street; choose the correct answer below?",
-    "options": [
-      "Only when wearing dark glasses",
-      "Only when helped by another person",
-      "When using a guide dog or a white or metallic cane",
-      "Only at a traffic signal"
-    ],
-    "correct": 2,
-    "explanation": "Blind pedestrians using a guide dog or white/metallic cane must always be given the right-of-way.",
-    "sourceGroup": 116
-  },
-  {
-    "id": 349,
-    "exam": 1,
     "category": "Sharing the Road",
     "question": "Where must drivers yield to pedestrians?",
     "options": [
@@ -5236,37 +1756,7 @@ const questions = [
     "sourceGroup": 117
   },
   {
-    "id": 350,
-    "exam": 2,
-    "category": "Sharing the Road",
-    "question": "Choose the correct location where drivers yield to pedestrians?",
-    "options": [
-      "Only at marked crosswalks",
-      "At all crosswalks and intersections",
-      "Only when a crossing guard is present",
-      "Only on school days"
-    ],
-    "correct": 1,
-    "explanation": "Drivers must yield to pedestrians at both marked and unmarked crosswalks and intersections.",
-    "sourceGroup": 117
-  },
-  {
-    "id": 351,
-    "exam": 3,
-    "category": "Sharing the Road",
-    "question": "Where is a driver required to drivers yield to pedestrians?",
-    "options": [
-      "Only at marked crosswalks",
-      "At all crosswalks and intersections",
-      "Only when a crossing guard is present",
-      "Only on school days"
-    ],
-    "correct": 1,
-    "explanation": "Drivers must yield to pedestrians at both marked and unmarked crosswalks and intersections.",
-    "sourceGroup": 117
-  },
-  {
-    "id": 352,
+    "id": 118,
     "exam": 1,
     "category": "Sharing the Road",
     "question": "What should you do if another vehicle is stopped for pedestrians at a crosswalk?",
@@ -5281,38 +1771,8 @@ const questions = [
     "sourceGroup": 118
   },
   {
-    "id": 353,
+    "id": 119,
     "exam": 2,
-    "category": "Sharing the Road",
-    "question": "In this situation, what should you do if another vehicle is stopped for pedestrians at a crosswalk?",
-    "options": [
-      "Pass it carefully on the right",
-      "Pass it only if the horn is used",
-      "Never pass it",
-      "Pass it if you cannot see pedestrians"
-    ],
-    "correct": 2,
-    "explanation": "Do not pass a vehicle stopped at a crosswalk because pedestrians may be crossing where you cannot see them.",
-    "sourceGroup": 118
-  },
-  {
-    "id": 354,
-    "exam": 3,
-    "category": "Sharing the Road",
-    "question": "Choose the safest action if another vehicle is stopped for pedestrians at a crosswalk?",
-    "options": [
-      "Pass it carefully on the right",
-      "Pass it only if the horn is used",
-      "Never pass it",
-      "Pass it if you cannot see pedestrians"
-    ],
-    "correct": 2,
-    "explanation": "Do not pass a vehicle stopped at a crosswalk because pedestrians may be crossing where you cannot see them.",
-    "sourceGroup": 118
-  },
-  {
-    "id": 355,
-    "exam": 1,
     "category": "Sharing the Road",
     "question": "Near which places should drivers be especially alert for children?",
     "options": [
@@ -5326,70 +1786,10 @@ const questions = [
     "sourceGroup": 119
   },
   {
-    "id": 356,
-    "exam": 2,
-    "category": "Sharing the Road",
-    "question": "Choose the best answer for this rule: Near which places should drivers be especially alert for children?",
-    "options": [
-      "Only near shopping centers",
-      "Near schools, bus stops, parks, playgrounds, and ice cream trucks",
-      "Only near highways",
-      "Only in rural areas"
-    ],
-    "correct": 1,
-    "explanation": "Children can enter the roadway unexpectedly near places where they gather.",
-    "sourceGroup": 119
-  },
-  {
-    "id": 357,
+    "id": 120,
     "exam": 3,
-    "category": "Sharing the Road",
-    "question": "New York permit review \u2014 Near which places should drivers be especially alert for children; choose the correct answer below?",
-    "options": [
-      "Only near shopping centers",
-      "Near schools, bus stops, parks, playgrounds, and ice cream trucks",
-      "Only near highways",
-      "Only in rural areas"
-    ],
-    "correct": 1,
-    "explanation": "Children can enter the roadway unexpectedly near places where they gather.",
-    "sourceGroup": 119
-  },
-  {
-    "id": 358,
-    "exam": 1,
     "category": "Sharing the Road",
     "question": "When backing up near children, what should you rely on most?",
-    "options": [
-      "Your mirrors only",
-      "Your horn",
-      "Looking through the back window and checking behind the vehicle",
-      "The backup camera only"
-    ],
-    "correct": 2,
-    "explanation": "Mirrors and cameras help, but drivers still need to look directly behind the vehicle.",
-    "sourceGroup": 120
-  },
-  {
-    "id": 359,
-    "exam": 2,
-    "category": "Sharing the Road",
-    "question": "Choose the best answer for this rule: When backing up near children, what should you rely on most?",
-    "options": [
-      "Your mirrors only",
-      "Your horn",
-      "Looking through the back window and checking behind the vehicle",
-      "The backup camera only"
-    ],
-    "correct": 2,
-    "explanation": "Mirrors and cameras help, but drivers still need to look directly behind the vehicle.",
-    "sourceGroup": 120
-  },
-  {
-    "id": 360,
-    "exam": 3,
-    "category": "Sharing the Road",
-    "question": "New York permit review \u2014 When backing up near children, what should you rely on most; choose the correct answer below?",
     "options": [
       "Your mirrors only",
       "Your horn",

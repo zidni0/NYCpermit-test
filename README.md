@@ -3,7 +3,7 @@
 Static web app for New York permit practice with:
 
 - 3 exams
-- 120 questions per exam
+- 40 sourced official-style questions per exam
 - wrong-answer retry rounds
 - localStorage progress saving
 - offline usage after files are present locally
@@ -13,7 +13,7 @@ Static web app for New York permit practice with:
 - `index.html` - app shell and screen structure
 - `style.css` - all styling and responsive layout
 - `app.js` - exam flow, retry logic, mastery handling, localStorage
-- `questions.js` - generated 360-question dataset
+- `questions.js` - generated 120-question dataset
 - `build_questions.py` - dataset generator
 - `NYC_Permit_Test_PRD.md` - copied PRD for in-project reference
 - `permit_quiz_patterns.md` - source-study notes used during planning
@@ -37,4 +37,4 @@ Open `index.html` in a modern browser.
 ## Notes
 
 - The app stores per-exam progress in the browser with keys that begin with `nyc-permit-sim`.
-- The question set was structured from the reviewed NY permit manual and practice-quiz patterns in this workspace.
+- The current question set is distributed as 40 questions per exam and is intended to feel closer to the public NY DMV practice quiz wording and structure.

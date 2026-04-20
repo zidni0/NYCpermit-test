@@ -36,13 +36,13 @@ def load_questions() -> list[dict]:
 
 
 def validate_questions(items: list[dict]) -> None:
-    assert len(items) == 360, f"Expected 360 questions, found {len(items)}"
-    assert len({q['id'] for q in items}) == 360, "Question IDs are not unique"
-    assert len({q['question'] for q in items}) == 360, "Question text is not unique"
+    assert len(items) == 120, f"Expected 120 questions, found {len(items)}"
+    assert len({q['id'] for q in items}) == 120, "Question IDs are not unique"
+    assert len({q['question'] for q in items}) == 120, "Question text is not unique"
 
     for exam in (1, 2, 3):
         exam_items = [q for q in items if q["exam"] == exam]
-        assert len(exam_items) == 120, f"Exam {exam} has {len(exam_items)} questions"
+        assert len(exam_items) == 40, f"Exam {exam} has {len(exam_items)} questions"
 
     for item in items:
         assert len(item["options"]) == 4, f"Question {item['id']} does not have four options"

@@ -1869,33 +1869,32 @@ def build_prompt_variant(prompt: str, exam: int) -> str:
 def build_questions():
     questions = []
     for idx, item in enumerate(ACTIVE_BASE_QUESTIONS):
-        for exam in range(1, 4):
-            prompt = build_prompt_variant(item["prompt"], exam)
-            questions.append(
-                {
-                    "id": len(questions) + 1,
-                    "exam": exam,
-                    "category": item["category"],
-                    "question": prompt,
-                    "options": item["options"],
-                    "correct": item["correct"],
-                    "explanation": item["explanation"],
-                    "sourceGroup": idx + 1,
-                }
-            )
+        exam = (idx % 3) + 1
+        questions.append(
+            {
+                "id": len(questions) + 1,
+                "exam": exam,
+                "category": item["category"],
+                "question": finalize_prompt(item["prompt"]),
+                "options": item["options"],
+                "correct": item["correct"],
+                "explanation": item["explanation"],
+                "sourceGroup": idx + 1,
+            }
+        )
     return questions
 
 
 def validate(questions):
     assert len(ACTIVE_BASE_QUESTIONS) == 120, f"Expected 120 base questions, found {len(ACTIVE_BASE_QUESTIONS)}"
-    assert len(questions) == 360, f"Expected 360 total questions, found {len(questions)}"
+    assert len(questions) == 120, f"Expected 120 total questions, found {len(questions)}"
     ids = [q["id"] for q in questions]
     assert len(ids) == len(set(ids)), "Duplicate IDs found"
     question_texts = [q["question"] for q in questions]
     assert len(question_texts) == len(set(question_texts)), "Duplicate question texts found"
     for exam in (1, 2, 3):
         exam_questions = [q for q in questions if q["exam"] == exam]
-        assert len(exam_questions) == 120, f"Exam {exam} does not have 120 questions"
+        assert len(exam_questions) == 40, f"Exam {exam} does not have 40 questions"
         exam_question_texts = [q["question"] for q in exam_questions]
         assert len(exam_question_texts) == len(set(exam_question_texts)), f"Exam {exam} has duplicate prompts"
     for item in questions:
