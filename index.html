@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NYC Permit Exam Simulator</title>
+    <meta
+      name="description"
+      content="NYC Permit Exam Simulator with three full practice exams, adaptive wrong-answer retries, and offline progress saving."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <main class="app-main">
+        <section id="screen-home" class="screen is-active" aria-labelledby="home-title">
+          <div class="hero-panel">
+            <p class="eyebrow">Official-style NY permit prep</p>
+            <h1 id="home-title">NYC Permit Exam Simulator</h1>
+            <p class="hero-copy">
+              3 full practice exams • adaptive retry rounds • 120 questions each
+            </p>
+          </div>
+
+          <div id="exam-card-grid" class="exam-card-grid" aria-live="polite"></div>
+
+          <footer class="screen-footer">
+            <p>Based on official NYS DMV handbook content and structured practice review.</p>
+          </footer>
+        </section>
+
+        <section id="screen-pre" class="screen" aria-labelledby="pre-title">
+          <div class="panel panel-wide">
+            <button class="ghost-link" id="pre-back-button" type="button">← Back to Menu</button>
+            <p id="pre-kicker" class="eyebrow">Exam setup</p>
+            <h2 id="pre-title">Exam 1 — Full Practice Test</h2>
+            <div class="rules-grid">
+              <div class="rule-card">
+                <span class="rule-number">120</span>
+                <span class="rule-label">Questions</span>
+              </div>
+              <div class="rule-card">
+                <span class="rule-number">84+</span>
+                <span class="rule-label">Needed to pass</span>
+              </div>
+              <div class="rule-card">
+                <span class="rule-number">∞</span>
+                <span class="rule-label">No time limit</span>
+              </div>
+            </div>
+            <ul class="rule-list">
+              <li>Wrong answers are tracked and turned into a retry round.</li>
+              <li>Retry rounds keep only the questions you still miss.</li>
+              <li>Questions and answer choices reshuffle every round.</li>
+              <li>Your progress is saved locally in this browser.</li>
+            </ul>
+            <div class="cta-row">
+              <button id="begin-exam-button" class="primary-button" type="button">Begin Exam</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="screen-question" class="screen" aria-labelledby="question-text">
+          <div class="top-status-bar">
+            <div class="status-pill" id="question-exam-pill">Exam 1 • Round 1</div>
+            <div class="status-pill" id="question-counter">Question 1 / 120</div>
+            <div class="status-pill" id="question-score-pill">Correct: 0 | Wrong: 0</div>
+          </div>
+
+          <div class="progress-track" aria-hidden="true">
+            <div id="progress-fill" class="progress-fill"></div>
+          </div>
+
+          <div class="panel panel-question">
+            <div class="question-meta-row">
+              <span id="question-category" class="category-tag">Road Signs</span>
+            </div>
+            <h2 id="question-text" class="question-text">Question goes here.</h2>
+            <div id="answer-list" class="answer-list" role="list"></div>
+            <div id="feedback-box" class="feedback-box" hidden></div>
+            <div class="cta-row question-actions">
+              <button id="next-question-button" class="primary-button" type="button" disabled>
+                Next Question
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section id="screen-results" class="screen" aria-labelledby="results-title">
+          <div class="panel panel-wide">
+            <p class="eyebrow" id="results-kicker">Round complete</p>
+            <h2 id="results-title">Results</h2>
+
+            <div class="results-summary">
+              <div class="score-orb">
+                <span id="results-score">0 / 120</span>
+              </div>
+              <div class="results-copy">
+                <div class="result-metrics">
+                  <span id="results-percentage" class="metric-chip">0%</span>
+                  <span id="results-badge" class="metric-chip neutral">Review Round</span>
+                </div>
+                <p id="results-subtitle" class="results-subtitle">
+                  Keep going until every question in the retry pool is correct.
+                </p>
+              </div>
+            </div>
+
+            <details class="wrong-answer-details" open>
+              <summary id="wrong-summary">Questions You Got Wrong</summary>
+              <div id="wrong-answer-list" class="wrong-answer-list"></div>
+            </details>
+
+            <div class="cta-row">
+              <button id="retry-button" class="primary-button" type="button">Retry Wrong Answers</button>
+              <button id="results-home-button" class="secondary-button" type="button">Back to Menu</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="screen-mastery" class="screen" aria-labelledby="mastery-title">
+          <div class="mastery-confetti" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div class="panel panel-wide mastery-panel">
+            <p class="eyebrow">Mastery unlocked</p>
+            <h2 id="mastery-title">Mastery Achieved — Exam 1</h2>
+            <p id="mastery-copy" class="mastery-copy">
+              You cleared every remaining retry question.
+            </p>
+            <div class="cta-row">
+              <button id="restart-exam-button" class="primary-button" type="button">
+                Restart Exam from Scratch
+              </button>
+              <button id="mastery-home-button" class="secondary-button" type="button">Back to Menu</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./questions.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
